@@ -91,13 +91,16 @@ spec:
       - name: akhq
         image: tchiotludo/akhq:latest
         env:
-        - name: AKHQ_CONFIG
+        - name: AKHQ_CONFIGURATION
           value: |
             akhq:
+              server:
+                servlet:
+                  context-path: /
               connections:
                 kafka:
                   properties:
-                    bootstrap.servers: "kafka:9092"  # your kafka service
+                    bootstrap.servers: "kafka:9092"
         ports:
         - containerPort: 8080
 ---
