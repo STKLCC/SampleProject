@@ -1,0 +1,115 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafdrop
+  namespace: s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafdrop
+  template:
+    metadata:
+      labels:
+        app: kafdrop
+    spec:
+      containers:
+      - name: kafdrop
+        image: obsidiandynamics/kafdrop:latest
+        env:
+        - name: KAFKA_BROKERCONNECT
+          value: "kafka:9092"  # adjust to your Kafka service
+        ports:
+        - containerPort: 9000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafdrop
+  namespace: s
+spec:
+  type: ClusterIP
+  ports:
+  - port: 9000
+    targetPort: 9000
+  selector:
+    app: kafdrop
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-manager
+  namespace: s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka-manager
+  template:
+    metadata:
+      labels:
+        app: kafka-manager
+    spec:
+      containers:
+      - name: kafka-manager
+        image: hlebalbau/kafka-manager:latest
+        env:
+        - name: ZK_HOSTS
+          value: "zookeeper:2181"  # adjust to your Zookeeper service
+        ports:
+        - containerPort: 9000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka-manager
+  namespace: s
+spec:
+  type: ClusterIP
+  ports:
+  - port: 9000
+    targetPort: 9000
+  selector:
+    app: kafka-manager
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: akhq
+  namespace: s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: akhq
+  template:
+    metadata:
+      labels:
+        app: akhq
+    spec:
+      containers:
+      - name: akhq
+        image: tchiotludo/akhq:latest
+        env:
+        - name: AKHQ_CONFIG
+          value: |
+            akhq:
+              connections:
+                kafka:
+                  properties:
+                    bootstrap.servers: "kafka:9092"  # your kafka service
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: akhq
+  namespace: s
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app: akhq
