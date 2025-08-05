@@ -1,8 +1,7 @@
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from './client';
 import { projectId, publicAnonKey } from './info';
 
 const supabaseUrl = `https://${projectId}.supabase.co`;
-const supabase = createClient(supabaseUrl, publicAnonKey);
 
 export interface AuthUser {
   id: string;

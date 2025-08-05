@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Card, CardHeader, CardContent, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
-import { ArrowLeft, ExternalLink, Clock, User, Calendar } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Clock, User, Calendar, AlertCircle } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
 
@@ -36,6 +36,8 @@ export function NewsPage({
   const [articles, setArticles] = useState<NewsArticle[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
+  const [isDemo, setIsDemo] = useState(false);
+  const [demoMessage, setDemoMessage] = useState('');
 
   useEffect(() => {
     fetchNews();
@@ -58,10 +60,20 @@ export function NewsPage({
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.error || 'Failed to fetch news');
+        // Even with errors, check if we got fallback data
+        if (data.articles && data.articles.length > 0) {
+          setArticles(data.articles);
+          setIsDemo(data.isDemo || false);
+          setDemoMessage(data.message || '');
+          setError(''); // Clear error since we have fallback content
+        } else {
+          throw new Error(data.error || 'Failed to fetch news');
+        }
+      } else {
+        setArticles(data.articles || []);
+        setIsDemo(data.isDemo || false);
+        setDemoMessage(data.message || '');
       }
-
-      setArticles(data.articles || []);
     } catch (err) {
       console.error('Error fetching news:', err);
       setError(err instanceof Error ? err.message : 'Failed to load news');
@@ -91,7 +103,12 @@ export function NewsPage({
   };
 
   const openArticle = (url: string) => {
-    window.open(url, '_blank');
+    if (isDemo) {
+      // For demo articles, show an alert instead of opening
+      alert('This is demo content. Real articles would open in a new tab when news API is properly configured.');
+    } else {
+      window.open(url, '_blank');
+    }
   };
 
   if (isLoading) {
@@ -165,6 +182,17 @@ export function NewsPage({
 
       {/* Content */}
       <div className="container mx-auto px-4 py-6">
+        {/* Demo Content Warning */}
+        {isDemo && demoMessage && (
+          <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg flex items-start gap-3">
+            <AlertCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
+            <div>
+              <p className="text-amber-800 text-sm font-medium">Demo Content</p>
+              <p className="text-amber-700 text-sm">{demoMessage}</p>
+            </div>
+          </div>
+        )}
+
         {error ? (
           <div className="text-center py-12">
             <p className="text-destructive mb-4">{error}</p>

@@ -14,6 +14,55 @@ app.use('*', cors({
 
 app.use('*', logger(console.log))
 
+// Helper function to generate fallback demo articles
+function generateFallbackArticles(outletName: string) {
+  const articleTopics = [
+    { 
+      title: "Breaking: Major Economic Development Announced", 
+      desc: "Government officials announce new economic policies that could impact markets nationwide.",
+      imageId: "1611974-e9a12e306d6da6f5c92cc9c91a9a6b2c"
+    },
+    { 
+      title: "Technology Innovation Drives Growth", 
+      desc: "Leading tech companies unveil breakthrough innovations that promise to reshape the industry.",
+      imageId: "1518709268-fcd-4e6a-9f16-e0cd-e6a3-a5e3-6e6e6e6e"
+    },
+    { 
+      title: "Climate Summit Reaches Historic Agreement", 
+      desc: "World leaders gather to discuss unprecedented climate action initiatives.",
+      imageId: "1569163-8e6a-4c6e-8e6a-e6e6e6e6e6e6"
+    },
+    { 
+      title: "Healthcare Breakthrough Shows Promise", 
+      desc: "Researchers announce significant advancement in medical treatment options.",
+      imageId: "1559136-6e6a-4c6e-8e6a-e6e6e6e6e6e6"
+    },
+    { 
+      title: "Global Markets React to Policy Changes", 
+      desc: "International markets show mixed reactions to recent regulatory developments.",
+      imageId: "1590845-6e6a-4c6e-8e6a-e6e6e6e6e6e6"
+    }
+  ]
+  
+  const unsplashImageIds = [
+    "1504711434969-e33e4fa5f7ce", // Business/Economy
+    "1581091226825-a6a2a5aee158", // Technology
+    "1569163493884-9c8e3a8c5c1e", // Climate/Environment  
+    "1559058651-3e33b5e4a9e7", // Healthcare
+    "1580519542-9c3f3e3f1f1f"  // Finance/Markets
+  ]
+  
+  return articleTopics.map((topic, index) => ({
+    title: `${topic.title}`,
+    description: topic.desc,
+    url: `https://example.com/demo-article-${index + 1}`,
+    urlToImage: `https://images.unsplash.com/photo-${unsplashImageIds[index]}?w=400&h=200&fit=crop`,
+    publishedAt: new Date(Date.now() - (index * 60 * 60 * 1000)).toISOString(),
+    author: `${outletName} Staff`,
+    source: outletName
+  }))
+}
+
 const supabase = createClient(
   Deno.env.get('SUPABASE_URL')!,
   Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,
@@ -119,8 +168,17 @@ app.get('/make-server-b30f3230/news/:outletId', async (c) => {
     const outletId = c.req.param('outletId')
     const newsApiKey = Deno.env.get('NEWS_API_KEY')
     
-    if (!newsApiKey) {
-      return c.json({ error: 'News API key not configured' }, 500)
+    console.log(`Fetching news for outlet: ${outletId}`)
+    console.log(`News API key present: ${!!newsApiKey}`)
+    console.log(`News API key length: ${newsApiKey?.length || 0}`)
+    
+    if (!newsApiKey || newsApiKey.trim() === '') {
+      console.log('News API key not configured or empty')
+      return c.json({ 
+        error: 'News API key not configured. Please check your environment variables.',
+        outlet: outletId,
+        articles: []
+      }, 500)
     }
 
     // Map outlet IDs to NewsAPI sources or domains
@@ -166,12 +224,35 @@ app.get('/make-server-b30f3230/news/:outletId', async (c) => {
       params.append('domains', outletConfig.domain)
     }
 
-    const response = await fetch(`${apiUrl}?${params}`)
+    const finalUrl = `${apiUrl}?${params}`
+    console.log(`Making request to: ${finalUrl.replace(newsApiKey, '[REDACTED]')}`)
+    
+    const response = await fetch(finalUrl)
     const data = await response.json()
 
+    console.log(`NewsAPI response status: ${response.status}`)
+    console.log(`NewsAPI response data:`, JSON.stringify(data, null, 2))
+
     if (!response.ok) {
-      console.log(`NewsAPI error for ${outletId}: ${data.message}`)
-      return c.json({ error: data.message || 'Failed to fetch news' }, 400)
+      console.log(`NewsAPI error for ${outletId}: ${data.message || 'Unknown error'}`)
+      
+      // If it's an API key issue, provide fallback content
+      if (data.code === 'apiKeyInvalid' || data.message?.includes('API key') || data.message?.includes('invalid')) {
+        console.log('API key issue detected, returning fallback content')
+        return c.json({
+          outlet: outletConfig.name,
+          articles: generateFallbackArticles(outletConfig.name),
+          totalResults: 5,
+          isDemo: true,
+          message: 'Demo content - Please configure a valid News API key from https://newsapi.org to see real articles'
+        })
+      }
+      
+      return c.json({ 
+        error: data.message || 'Failed to fetch news',
+        outlet: outletConfig.name,
+        articles: []
+      }, 400)
     }
 
     // Filter and format articles

@@ -5,7 +5,7 @@ import { LogOut, Search, Filter, Heart } from 'lucide-react';
 import { Input } from './ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { Badge } from './ui/badge';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '../utils/supabase/client';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
 
 interface DashboardProps {
@@ -125,11 +125,6 @@ const mediaOutlets = [
     color: '#00D4AA'
   }
 ];
-
-const supabase = createClient(
-  `https://${projectId}.supabase.co`,
-  publicAnonKey
-);
 
 export function Dashboard({ user, accessToken, onLogout, onViewNews }: DashboardProps) {
   const [searchTerm, setSearchTerm] = useState('');

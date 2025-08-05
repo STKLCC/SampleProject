@@ -2,13 +2,7 @@ import { useState, useEffect } from 'react';
 import { AuthForm } from './components/AuthForm';
 import { Dashboard } from './components/Dashboard';
 import { NewsPage } from './components/NewsPage';
-import { createClient } from '@supabase/supabase-js';
-import { projectId, publicAnonKey } from './utils/supabase/info';
-
-const supabase = createClient(
-  `https://${projectId}.supabase.co`,
-  publicAnonKey
-);
+import { supabase } from './utils/supabase/client';
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

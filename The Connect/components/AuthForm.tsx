@@ -5,17 +5,12 @@ import { Label } from './ui/label';
 import { Card, CardHeader, CardContent, CardTitle } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Alert, AlertDescription } from './ui/alert';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '../utils/supabase/client';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
 
 interface AuthFormProps {
   onLogin: (user: any, accessToken: string) => void;
 }
-
-const supabase = createClient(
-  `https://${projectId}.supabase.co`,
-  publicAnonKey
-);
 
 export function AuthForm({ onLogin }: AuthFormProps) {
   const [isLoading, setIsLoading] = useState(false);
