@@ -1,0 +1,51 @@
+{
+  "id": "24613b10-8dd5-4ae3-b129-e161b606819f",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.1.1",
+    "AbpStudio": "0.9.26",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "ABPSample": {
+      "path": "ABPSample.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+      
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.9.26",
+    "tiered": "false",
+    "runInstallLibs": "true",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "mvc",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "true",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "true",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "mobileFramework": "none",
+    "publicWebsite": "false",
+    "socialLogin": "true",
+    "createCommand": "abp new ABPSample -t app --ui-framework mvc --database-provider ef --database-management-system sqlserver --theme leptonx-lite --without-cms-kit --dont-run-bundling -no-file-management"
+  }
+}

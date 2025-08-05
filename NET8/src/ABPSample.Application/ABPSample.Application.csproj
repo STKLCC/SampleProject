@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ABPSample</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABPSample.Domain\ABPSample.Domain.csproj" />
+    <ProjectReference Include="..\ABPSample.Application.Contracts\ABPSample.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="9.1.1" />
+  </ItemGroup>
+
+</Project>

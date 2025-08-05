@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "ABPSample.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44306",
+      "path": "../../../src/ABPSample.Web/ABPSample.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
