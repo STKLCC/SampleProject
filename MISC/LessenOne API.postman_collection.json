@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "e7e9215b-48af-4ad1-9c0d-ba57c59aabd9",
+		"name": "LessenOne API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45564807",
+		"_collection_link": "https://smsassist.postman.co/workspace/Strategic-Integration~72ec6730-9634-4b6a-be6d-6688338fd996/collection/34789495-e7e9215b-48af-4ad1-9c0d-ba57c59aabd9?action=share&source=collection_link&creator=45564807"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Get Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"OneToken\", pm.response.text());"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{One_TokenPassword}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{One_TokenUserName}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{DomainUrl}}/auth/token",
+							"host": [
+								"{{DomainUrl}}"
+							],
+							"path": [
+								"auth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Webhook",
+			"item": [
+				{
+					"name": "Project Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1301/webhook/project/updated",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1301",
+							"path": [
+								"webhook",
+								"project",
+								"updated"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+  "Configuration": {
+    "AzureAppConfig": {
+      "Enabled": true,
+      "IdentityType": "connectionString",
+      "ConnectionString": "Endpoint=https://fixt-local-test.azconfig.io;Id=sRWy-lb-s0:6lG23VUmKKdExC+4tbb9;Secret=qIQ8Q~xqhhkgnDHGpmU5jcQQAcx2PVslKmhqIcBl",
+      "Endpoint": null
+    }
+  },
+  //"ConnectionStrings": {
+  //  "ClientDomain": "Data Source=sql-csa-dev-sea-1.database.windows.net;port=1433;Initial Catalog=sqldb-csa-100-dev-sea-1;user id=yongee_low_simpletruss;password=fdawUfkwjfffk*888H;CharSet=utf8mb4;Allow User Variables=True;default command timeout=120;Convert Zero Datetime=True;"
+  //},
+  "Urls": {
+    //"IdentityServerBaseUrl": "http://localhost:9300",
+    //"IdentityServerApiUrl": "http://localhost:9301",
+    "ClientDomainUrl": "https://localhost:5001",
+    //"VendorOpenApiUrl": "http://localhost:5070/api/v1",
+    "VendorOpenApiUrl": "https://vendordev.fixt.com/vendoropenapi/api/v1"
+    //"VendorOpenApiUrl": "http://vendoropenapi.fixt-vendor-ns.svc.cluster.local/api/v1"
+  },
+  "GraphQLConfig": {
+    "RootPath": "/ui",
+    "GraphQLPath": "/graphql",
+    "EnableRemoteSchema": true
+  },
+  "Serilog": {
+    "MinimumLevel": "Information"
+  },
+  "Integration": {
+    "One": {
+      "IsEnable": true, //verify need or not
+      "Type": 0, //verify need or not
+      "ApiConfig": {
+        "ServiceUrl": "https://meshstage.smsassist.com",
+        "UserName": "Berkshire",
+        "Password": "vBNM<>?123/Sv232",
+        "ApiTimeOutDuration": 120,
+        "ApiTokenPath": "one-graph-client/token"
+      },
+      "OneVendorId": null
+    },
+    "MRI": {
+      "IsEnable": true,
+      "Type": 1, // 0-api, 1-sftp, 2-ftp
+      "ApiConfig": {
+        "ServiceUrl": "http://example.mrisoftware.com",
+        "UserName": "",
+        "Password": ""
+      },
+      "SftpConfig": {
+        "Host": "sftp.southeastasia.cloudapp.azure.com",
+        "UserName": "sftpuser",
+        "Password": "SyZzBht4i4#My5v9Mrd^Nn^Pj7pjE",
+        "PrivateKey": "***managed on azure***",
+        "Port": 22,
+        "AuthenticationType": "0", // 0-Password,1-PrivateKey,2-PasswordAndPrivateKey
+        "DirectoryPath": "MRI_DataSync_Development/mriTest_0527"
+      },
+      "BackgroundJob": {
+        "SyncMriPropertyCronExpression": "* * * * *", // every day at 07:00 UTC (01:00 AM CST)
+        "SyncMriUnitCronExpression": "* * * * *", // every day at 08:00 UTC (02:00 AM CST)
+        // Temporarily change the mri unit sync cycle to quickly sync the base data for 0816 go live, and then withdraw it after the sync is complete
+        //"SyncMriUnitCronExpression": "*/10 * * * *", // every 10 minutes
+        "SyncMriUnitLeaseCronExpression": "* * * * *", // every 10 minutes
+        "SyncMriUnitLeaseNewCronExpression": "* * * * *", // every 10 minutes
+        "SyncMriUnitOccupancyUpdateCronExpression": "* * * * *" // every 10 minutes
+      }
+    },
+    "Webhook": {
+      "Enabled": true
+    } //,
+    //"LiveCutoffTime": "2024-12-02T04:10:00"
+  },
+  "BackgroundJob": {
+    "WebhookJobCronExpression": "* * * * *",
+    "OverdueScheduleTimeWoCronExpression": "* * * * *"
+  }
+  //"Client": {
+  //  "TenantCode": "Yardi"
+  //}
+}

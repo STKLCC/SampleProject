@@ -1,0 +1,34 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "smsone2-aurora.cluster-clnv8hcwth8v.ap-southeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "DataIntegrationHub",
+            "group": "DataIntegrationHub",
+            "username": "fengwei.lee",
+            "password": "bpZF-cPENrd367XMjTW2eSG",
+            "database": "DataIntegrationHub"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "smsone2-aurora.cluster-clnv8hcwth8v.ap-southeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "quartznet",
+            "group": "quartznet",
+            "username": "fengwei.lee",
+            "password": "bpZF-cPENrd367XMjTW2eSG",
+            "database": "quartznet"
+        }
+    ]
+}

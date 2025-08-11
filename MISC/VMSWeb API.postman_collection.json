@@ -1,0 +1,893 @@
+{
+	"info": {
+		"_postman_id": "c49fe3a7-14f2-46e8-96d3-51bb86ea47e3",
+		"name": "VMSWeb API",
+		"description": "Village Management Software",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45564807",
+		"_collection_link": "https://smsassist.postman.co/workspace/Strategic-Integration~72ec6730-9634-4b6a-be6d-6688338fd996/collection/37011536-c49fe3a7-14f2-46e8-96d3-51bb86ea47e3?action=share&source=collection_link&creator=45564807"
+	},
+	"item": [
+		{
+			"name": "Demo",
+			"item": [
+				{
+					"name": "API GUID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"VendorID\": \"dmVuZG9y\",\r\n  \"VendorPassword\": \"cGFzc3dvcmQ=\",\r\n  \"UserID\": \" NTAyMTI=\",\r\n  \"UserPassword\": \"UGFzcy53b3JkMQ==\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://demovmsrxchange.vmsclientonline.com/api/apiguid?validationKey=1&partnerKey=1",
+							"protocol": "https",
+							"host": [
+								"demovmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"apiguid"
+							],
+							"query": [
+								{
+									"key": "validationKey",
+									"value": "1"
+								},
+								{
+									"key": "partnerKey",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Insight",
+			"item": [
+				{
+					"name": "API GUID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json(); // Parse the JSON response\r",
+									"pm.environment.set(\"GUID\", responseData.GUID); // Set the GUID to environment variable\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"packages": {},
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"VendorID\": \"Lessen25\",\r\n  \"VendorPassword\": \"F1QR2cd54*\",\r\n  \"UserID\": \"Lessen\",\r\n  \"UserPassword\": \"Testing123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/apiguid/{ID}?validationKey=1&partnerKey=BLZ6R3QUPBKAXQSP2PSQLXU9BP&vendorID=Lessen25&vendorPassword=F1QR2cd54*&ID=Lessen25&IDPassword=F1QR2cd54*",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"apiguid",
+								"{ID}"
+							],
+							"query": [
+								{
+									"key": "validationKey",
+									"value": "1"
+								},
+								{
+									"key": "partnerKey",
+									"value": "BLZ6R3QUPBKAXQSP2PSQLXU9BP"
+								},
+								{
+									"key": "vendorID",
+									"value": "Lessen25"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "F1QR2cd54*"
+								},
+								{
+									"key": "ID",
+									"value": "Lessen25"
+								},
+								{
+									"key": "IDPassword",
+									"value": "F1QR2cd54*"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Company Document",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"VendorID\": \"Lessen25\",\r\n  \"VendorPassword\": \"F1QR2cd54*\",\r\n  \"UserID\": \"Lessen\",\r\n  \"UserPassword\": \"Testing123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/CompanyDocument?VendorID=5734&vendorPassword=F1QR2cd54*&APIGUID=5455e5c3f37d424b8adad6ccfe5f1da8",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"CompanyDocument"
+							],
+							"query": [
+								{
+									"key": "VendorID",
+									"value": "5734"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "F1QR2cd54*"
+								},
+								{
+									"key": "APIGUID",
+									"value": "5455e5c3f37d424b8adad6ccfe5f1da8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Company List",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"VendorID\": \"Lessen25\",\r\n  \"VendorPassword\": \"F1QR2cd54*\",\r\n  \"UserID\": \"Lessen\",\r\n  \"UserPassword\": \"Testing123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/CompanyList?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&APIGUID={{GUID}}",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"CompanyList"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": null,
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Community List",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\napi/CommunityList?vendorID={vendorID}&vendorPassword={vendorPassword}&APIGUID={APIGUID}&CompanyKey={CompanyKey}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/CommunityList?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&APIGUID={{GUID}}&CompanyKey=207",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"CommunityList"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": "CompanyKey",
+									"value": "207"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unit",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\napi/CommunityList?vendorID={vendorID}&vendorPassword={vendorPassword}&APIGUID={APIGUID}&CompanyKey={CompanyKey}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/Unit?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&VendorKey=5734&APIGUID={{GUID}}&CompanyKey=153&DeltaDate=5/1/2025",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"Unit"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "VendorKey",
+									"value": "5734"
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": "CompanyKey",
+									"value": "153"
+								},
+								{
+									"key": "CommunityKey",
+									"value": "684",
+									"disabled": true
+								},
+								{
+									"key": "DeltaDate",
+									"value": "5/1/2025"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resident",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\napi/CommunityList?vendorID={vendorID}&vendorPassword={vendorPassword}&APIGUID={APIGUID}&CompanyKey={CompanyKey}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/Resident?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&VendorKey=5734&APIGUID={{GUID}}&CompanyKey=223&ResidentKey=0",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"Resident"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "VendorKey",
+									"value": "5734"
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": "CompanyKey",
+									"value": "223"
+								},
+								{
+									"key": "ResidentKey",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resident Contact",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\napi/CommunityList?vendorID={vendorID}&vendorPassword={vendorPassword}&APIGUID={APIGUID}&CompanyKey={CompanyKey}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/ResidentContact?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&APIGUID={{GUID}}&CompanyKey=223&ResidentKey=85814&ResidentContactKey=0",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"ResidentContact"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "VendorKey",
+									"value": "5734",
+									"disabled": true
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": "CompanyKey",
+									"value": "223"
+								},
+								{
+									"key": "ResidentKey",
+									"value": "85814"
+								},
+								{
+									"key": "ResidentContactKey",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resident Telephone",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Example to retrive a session GUID\r",
+									"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+									"\r",
+									"/*\r",
+									"Vendor ID: vendor\r",
+									"VendorPassword: password\r",
+									"UserID: 50212\r",
+									"UserPassword: Pass.word1\r",
+									" */"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\napi/CommunityList?vendorID={vendorID}&vendorPassword={vendorPassword}&APIGUID={APIGUID}&CompanyKey={CompanyKey}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://insightvmsrxchange.vmsclientonline.com/api/ResidentTelephone?vendorID={{vendorID}}&vendorPassword={{vendorPassword}}&APIGUID={{GUID}}&ResidentContactKey=190657",
+							"protocol": "https",
+							"host": [
+								"insightvmsrxchange",
+								"vmsclientonline",
+								"com"
+							],
+							"path": [
+								"api",
+								"ResidentTelephone"
+							],
+							"query": [
+								{
+									"key": "vendorID",
+									"value": "{{vendorID}}"
+								},
+								{
+									"key": "vendorPassword",
+									"value": "{{vendorPassword}}"
+								},
+								{
+									"key": "VendorKey",
+									"value": "5734",
+									"disabled": true
+								},
+								{
+									"key": "APIGUID",
+									"value": "{{GUID}}"
+								},
+								{
+									"key": "CompanyKey",
+									"value": "154",
+									"disabled": true
+								},
+								{
+									"key": "ResidentKey",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "ResidentContactKey",
+									"value": "190657"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API GUID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Example to retrive a session GUID\r",
+							"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+							"\r",
+							"/*\r",
+							"Vendor ID: vendor\r",
+							"VendorPassword: password\r",
+							"UserID: 50212\r",
+							"UserPassword: Pass.word1\r",
+							" */"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n  \"VendorID\": \"dmVuZG9y\",\r\n  \"VendorPassword\": \"cGFzc3dvcmQ=\",\r\n  \"UserID\": \" NTAyMTI=\",\r\n  \"UserPassword\": \"UGFzcy53b3JkMQ==\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://vmsrxchange.tssvendor.com/api/apiguid?validationKey=1&partnerKey=1",
+					"protocol": "http",
+					"host": [
+						"vmsrxchange",
+						"tssvendor",
+						"com"
+					],
+					"path": [
+						"api",
+						"apiguid"
+					],
+					"query": [
+						{
+							"key": "validationKey",
+							"value": "1"
+						},
+						{
+							"key": "partnerKey",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API GUID Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Example to retrive a session GUID\r",
+							"// The VendorID, VendorPassword, UserID and UserPassword are Base64 encoded:\r",
+							"\r",
+							"/*\r",
+							"Vendor ID: vendor\r",
+							"VendorPassword: password\r",
+							"UserID: 50212\r",
+							"UserPassword: Pass.word1\r",
+							" */"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n  \"VendorID\": \"Lessen25\",\r\n  \"VendorPassword\": \"F1QR2cd54*\",\r\n  \"UserID\": \"Lessen\",\r\n  \"UserPassword\": \"Testing123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://insightvmsrxchange.vmsclientonline.com/api/apiguid?validationKey=1&partnerKey=1",
+					"protocol": "https",
+					"host": [
+						"insightvmsrxchange",
+						"vmsclientonline",
+						"com"
+					],
+					"path": [
+						"api",
+						"apiguid"
+					],
+					"query": [
+						{
+							"key": "validationKey",
+							"value": "1"
+						},
+						{
+							"key": "partnerKey",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "validationKey",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "partnerKey",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "vendorID",
+			"value": "Lessen25",
+			"type": "string"
+		},
+		{
+			"key": "vendorPassword",
+			"value": "F1QR2cd54*",
+			"type": "string"
+		},
+		{
+			"key": "IDPassword",
+			"value": "F1QR2cd54*",
+			"type": "string"
+		},
+		{
+			"key": "ID",
+			"value": "Lessen25",
+			"type": "string"
+		},
+		{
+			"key": "GUID",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
