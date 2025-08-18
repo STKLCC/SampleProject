@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Safe Frame Viewer</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin: 0; padding: 0; background:#f3f4f6; color:#111827; }
+    header { padding: 1rem; background: #0f172a; color: white; display:flex; gap:1rem; align-items:center; }
+    main { padding: 1rem; }
+    .controls { display:flex; gap:.5rem; align-items:center; }
+    .frame-wrap { width:100%; height:70vh; background: #fff; border:1px solid #e5e7eb; border-radius:8px; overflow:hidden; position:relative; }
+    iframe { width:100%; height:100%; border:0; display:block; }
+    .overlay { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.9); flex-direction:column; gap:.5rem; padding:1rem; text-align:center; }
+    .hidden { display:none; }
+    button { padding:.5rem .75rem; border-radius:6px; border:1px solid #cbd5e1; background:white; cursor:pointer; }
+    button.primary { background:#0ea5a4; color:white; border-color:transparent; }
+    .note { margin-top:.75rem; font-size:.9rem; color:#6b7280; }
+    label { font-weight:600; margin-right:.5rem; }
+    input.url { width:60vw; padding:.45rem .6rem; border-radius:6px; border:1px solid #e6eef0; }
+    @media (max-width:700px){ .controls { flex-direction:column; align-items:flex-start } .input-row{ width:100% } input.url{ width:100% } }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="font-weight:700">Safe Frame Viewer</div>
+    <div style="margin-left:auto; font-size:.9rem; color:#94a3b8">Note: will not bypass paywalls or site protections</div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <div class="input-row">
+        <label for="url">URL</label>
+        <input id="url" class="url" type="text"
+               value="https://www.straitstimes.com/singapore/courts-crime/mans-claim-amid-divorce-that-his-mother-is-true-owner-of-3-properties-cuts-no-ice-with-judge" />
+        <button id="loadBtn" class="primary">Load</button>
+      </div>
+      <div style="margin-left:1rem;">
+        <button id="openNew">Open in new tab</button>
+      </div>
+    </div>
+
+    <div style="height:12px"></div>
+
+    <div class="frame-wrap" id="frameWrap">
+      <iframe id="targetFrame" src="" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+
+      <div id="fallback" class="overlay hidden">
+        <div style="font-size:1.05rem; font-weight:700">Cannot embed this page</div>
+        <div class="note">The site likely prevents framing (X-Frame-Options or Content-Security-Policy). You can open it in a new tab instead.</div>
+        <div style="margin-top:.75rem;">
+          <button id="fallbackOpen" class="primary">Open Original Page</button>
+          <button id="retry" style="margin-left:.5rem">Retry</button>
+        </div>
+      </div>
+
+      <div id="loading" class="overlay">
+        <div style="font-weight:700">Loading…</div>
+        <div class="note">If the page displays overlays or paywalls, those are controlled by the site.</div>
+      </div>
+    </div>
+
+    <div class="note" style="margin-top:.8rem">
+      Technical notes:
+      <ul>
+        <li>You cannot remove overlays inside a cross-origin iframe from your script (browser security).</li>
+        <li>If you control the target site or have permission, the correct approach is to serve content via an API or allow framing from your domain.</li>
+      </ul>
+    </div>
+  </main>
+
+  <script>
+    const urlInput = document.getElementById('url');
+    const loadBtn = document.getElementById('loadBtn');
+    const openNewBtn = document.getElementById('openNew');
+    const fallbackOpen = document.getElementById('fallbackOpen');
+    const retryBtn = document.getElementById('retry');
+    const frame = document.getElementById('targetFrame');
+    const fallback = document.getElementById('fallback');
+    const loading = document.getElementById('loading');
+
+    function show(elem){ elem.classList.remove('hidden'); }
+    function hide(elem){ elem.classList.add('hidden'); }
+
+    async function loadUrl(url) {
+      hide(fallback);
+      show(loading);
+      frame.src = url;
+
+      // Use a timeout as many browsers won't fire error events for CSP/X-Frame-Options
+      const start = Date.now();
+      const timeoutMs = 6000;
+
+      // Attach a load listener
+      let loaded = false;
+      function onLoad(){ loaded = true; hide(loading); }
+      frame.removeEventListener('load', onLoad);
+      frame.addEventListener('load', onLoad);
+
+      // Poll for timeout or load
+      const check = setInterval(() => {
+        if (loaded) {
+          clearInterval(check);
+          // Note: even after load, content may be a 'refused to connect' or small blocked page.
+          // We cannot inspect content due to cross-origin rules.
+          return;
+        }
+        if (Date.now() - start > timeoutMs) {
+          clearInterval(check);
+          hide(loading);
+          show(fallback);
+        }
+      }, 300);
+    }
+
+    loadBtn.addEventListener('click', () => {
+      const url = urlInput.value.trim();
+      if (!url) return alert('Enter a URL');
+      loadUrl(url);
+    });
+
+    openNewBtn.addEventListener('click', () => {
+      const url = urlInput.value.trim();
+      if (!url) return alert('Enter a URL');
+      window.open(url, '_blank', 'noopener');
+    });
+
+    fallbackOpen.addEventListener('click', () => {
+      const url = urlInput.value.trim();
+      window.open(url, '_blank', 'noopener');
+    });
+
+    retryBtn.addEventListener('click', () => {
+      const url = urlInput.value.trim();
+      loadUrl(url);
+    });
+
+    // load initial
+    loadUrl(urlInput.value.trim());
+  </script>
+</body>
+</html>

@@ -1,0 +1,2757 @@
+[
+  {
+    "key": "Azure:Blob:ConnectionString",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Blob-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:26:55+00:00",
+    "tags": {},
+    "etag": "lBKDxojv78ni4AYRxgvZQVc1uRM24N7Z3_O4p-i_9gw",
+    "content": {
+      "etag": "lBKDxojv78ni4AYRxgvZQVc1uRM24N7Z3_O4p-i_9gw",
+      "key": "Azure:Blob:ConnectionString",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Blob-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:26:55.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Blob:ConnectionString",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Blob-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T10:39:24+00:00",
+    "tags": {},
+    "etag": "bk9kSpjVSTCydRv7ZBEsRcnppfKqJOpT_KRVx9pBCmY",
+    "content": {
+      "etag": "bk9kSpjVSTCydRv7ZBEsRcnppfKqJOpT_KRVx9pBCmY",
+      "key": "Azure:Blob:ConnectionString",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Blob-ConnectionString\"}",
+      "last_modified": "2025-07-22T10:39:24.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Blob:ContainerName",
+    "label": "development/client/100",
+    "value": "app",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "2vf89BUs2BkcdHLuH1PkLC9vCF9DdyYbmit_rhd_AO8",
+    "content": {
+      "etag": "2vf89BUs2BkcdHLuH1PkLC9vCF9DdyYbmit_rhd_AO8",
+      "key": "Azure:Blob:ContainerName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "app",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Blob:ContainerName",
+    "label": "local/client/100",
+    "value": "app",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "Mj71HOOHvnTWXSfkvashawxQeYK70OqtbInCOBWsC-k",
+    "content": {
+      "etag": "Mj71HOOHvnTWXSfkvashawxQeYK70OqtbInCOBWsC-k",
+      "key": "Azure:Blob:ContainerName",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "app",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:ConnectionString",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Email-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:28:44+00:00",
+    "tags": {},
+    "etag": "Gs5dFCzsx2AfuHAxiQxbrS5y04lq8C0MDN4RDPNKc0s",
+    "content": {
+      "etag": "Gs5dFCzsx2AfuHAxiQxbrS5y04lq8C0MDN4RDPNKc0s",
+      "key": "Azure:Email:ConnectionString",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Email-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:28:44.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:ConnectionString",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Email-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:30:18+00:00",
+    "tags": {},
+    "etag": "-4WnXbWIWL3kDdF40gaqDnr99cB7jVhgyURYmvA6dYY",
+    "content": {
+      "etag": "-4WnXbWIWL3kDdF40gaqDnr99cB7jVhgyURYmvA6dYY",
+      "key": "Azure:Email:ConnectionString",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Email-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:30:18.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:From",
+    "label": "development/client/100",
+    "value": "DoNotReply@email.clientdev.lessen360.com",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "rMsuY2Px_Fx6LrQlks74yUdEvHADNphgwPdMcoRa9zQ",
+    "content": {
+      "etag": "rMsuY2Px_Fx6LrQlks74yUdEvHADNphgwPdMcoRa9zQ",
+      "key": "Azure:Email:From",
+      "label": "development/client/100",
+      "value": "DoNotReply@email.clientdev.lessen360.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:From",
+    "label": "local/client/100",
+    "value": "DoNotReply@email.clientdev.lessen360.com",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "cJOXIfKEOyZqOiT9D_vGxb7C8PFCxSba6TsQ0PJit9g",
+    "content": {
+      "etag": "cJOXIfKEOyZqOiT9D_vGxb7C8PFCxSba6TsQ0PJit9g",
+      "key": "Azure:Email:From",
+      "label": "local/client/100",
+      "value": "DoNotReply@email.clientdev.lessen360.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:SenderAddress",
+    "label": "development/client/100",
+    "value": "DoNotReply@5ee53948-ab85-4aba-b1d2-92aa07b609ba.azurecomm.net",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "UPs3-3DVhwtfKg5F0bnN9lb4UY-2aUE95U-D15N1HrY",
+    "content": {
+      "etag": "UPs3-3DVhwtfKg5F0bnN9lb4UY-2aUE95U-D15N1HrY",
+      "key": "Azure:Email:SenderAddress",
+      "label": "development/client/100",
+      "value": "DoNotReply@5ee53948-ab85-4aba-b1d2-92aa07b609ba.azurecomm.net",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Email:SenderAddress",
+    "label": "local/client/100",
+    "value": "DoNotReply@5ee53948-ab85-4aba-b1d2-92aa07b609ba.azurecomm.net",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "CRr3REPKl6HsV8oPMhoF_h9yOCA0rEyoux6LPnwIvM4",
+    "content": {
+      "etag": "CRr3REPKl6HsV8oPMhoF_h9yOCA0rEyoux6LPnwIvM4",
+      "key": "Azure:Email:SenderAddress",
+      "label": "local/client/100",
+      "value": "DoNotReply@5ee53948-ab85-4aba-b1d2-92aa07b609ba.azurecomm.net",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:ConnectionString",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Redis-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:32:04+00:00",
+    "tags": {},
+    "etag": "tCEMnM1ZidzYBvIrBMjhAMzp227-iqNvu9w-H_a1K2M",
+    "content": {
+      "etag": "tCEMnM1ZidzYBvIrBMjhAMzp227-iqNvu9w-H_a1K2M",
+      "key": "Azure:Redis:ConnectionString",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Redis-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:32:04.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:ConnectionString",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Redis-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:32:19+00:00",
+    "tags": {},
+    "etag": "xA4lRYQOEmM38QGJEPISf56X1gi_XEkBtVFnjcDV-7E",
+    "content": {
+      "etag": "xA4lRYQOEmM38QGJEPISf56X1gi_XEkBtVFnjcDV-7E",
+      "key": "Azure:Redis:ConnectionString",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-Redis-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:32:19.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:DbId",
+    "label": "development/client/100",
+    "value": "0",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "WYCMg8Nd8fmx3OsKg9KeczzajHXPaVRWVMgChjakrrk",
+    "content": {
+      "etag": "WYCMg8Nd8fmx3OsKg9KeczzajHXPaVRWVMgChjakrrk",
+      "key": "Azure:Redis:DbId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "0",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:DbId",
+    "label": "local/client/100",
+    "value": "0",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "SCpGIIk0WgsiHNZsP2fdiD0HTeQbae-AwYY6fgEnEhc",
+    "content": {
+      "etag": "SCpGIIk0WgsiHNZsP2fdiD0HTeQbae-AwYY6fgEnEhc",
+      "key": "Azure:Redis:DbId",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "0",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:EnableCache",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "vFpcWzwXYFXeAXcTqlXSzfzfeURlCQw8gJwKEjgjZOk",
+    "content": {
+      "etag": "vFpcWzwXYFXeAXcTqlXSzfzfeURlCQw8gJwKEjgjZOk",
+      "key": "Azure:Redis:EnableCache",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Redis:EnableCache",
+    "label": "local/client/100",
+    "value": "false",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "zutMP3LBZ9n1dAZvbbu3gb0X5kMZVa3uC9zk9bC5ZkE",
+    "content": {
+      "etag": "zutMP3LBZ9n1dAZvbbu3gb0X5kMZVa3uC9zk9bC5ZkE",
+      "key": "Azure:Redis:EnableCache",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "false",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:Enable",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "VRlgCStQG8C3KLKynSBBHlE-9pEJiWH64GCQcIv40z0",
+    "content": {
+      "etag": "VRlgCStQG8C3KLKynSBBHlE-9pEJiWH64GCQcIv40z0",
+      "key": "Azure:Saml:Enable",
+      "label": "development/client/100",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:IdentityProvider:CertificateContent",
+    "label": "development/client/100",
+    "value": "-----BEGIN CERTIFICATE-----\r\nMIIDqjCCApKgAwIBAgIGAZTeMk+cMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJVUzETMBEG\r\nA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU\r\nMBIGA1UECwwLU1NPUHJvdmlkZXIxFjAUBgNVBAMMDXRyaWFsLTgzMDA0OTIxHDAaBgkqhkiG9w0B\r\nCQEWDWluZm9Ab2t0YS5jb20wHhcNMjUwMjA3MDIxNjA2WhcNMzUwMjA3MDIxNzA2WjCBlTELMAkG\r\nA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTAL\r\nBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRYwFAYDVQQDDA10cmlhbC04MzAwNDky\r\nMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\r\nCgKCAQEA77F1zVDdlLhkMedrSgUFIal8mINt54kbhUc/wdwY3ylJ00JMKHCcajnbIpaZ+GR3Xt9r\r\nlAoZygi5GBNQTXbatlGGtwCTDBZT5hLJP3HTAth6LJxjmTl5ae2zP4JabgQIMmXNuWaQr9AFVynH\r\nYnPiKL+DRYw7xnYq2Kf8e9ha/EofATejcxW7VE/LORRVPt4m9c26VGljPXIGUbxRR1Eest+DH7ki\r\nXByi3RH1XByfjECvxrZNmRc0mj51kAGKs/wBdE23snMlUEr+YSoVm5A7hPrDcTpvFrIqmCj8oi+Z\r\nSZxJM5pD6B1qFxH668wCSmlWTAjMJk79wIoKsd+5uPyhtwIDAQABMA0GCSqGSIb3DQEBCwUAA4IB\r\nAQBOR1avzkfsQNeCUdUx8jg5z/IhFO7jxt6558g233gWqPCrBhRgzJyEnYft8Ah9Ka0vEU7vBio+\r\n4mW7KEo1Bh/ulxg5Ytd4QLILuP51Ux6X2U+TGqWLwF9GpXFPT0oEBhULs4iWQIlbYmm8y9/D/aWh\r\nzy8w3FYF/ZujAcL+34UddHRLX2UDFd4LyZR7Q/jd+Db5+1FafjJ5tbLMXWeLcHb8NQN3JGhPflkl\r\nCe/MIZQGu6ZXe/re3z9naniGxVjWbfxSj6CiS8cPSaKem4W/+txubjN/ItPZoTKR/kB/97AvRtMi\r\nt9r9NJ7IlhHnVOvwvA36P7usbjj8nSMSsXRyfWmg\r\n-----END CERTIFICATE-----",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "q5sr6ehRpZT2OoY3NPuT7Z-mrqGQ51XiPOLL-IMNHhI",
+    "content": {
+      "etag": "q5sr6ehRpZT2OoY3NPuT7Z-mrqGQ51XiPOLL-IMNHhI",
+      "key": "Azure:Saml:IdentityProvider:CertificateContent",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "-----BEGIN CERTIFICATE-----\r\nMIIDqjCCApKgAwIBAgIGAZTeMk+cMA0GCSqGSIb3DQEBCwUAMIGVMQswCQYDVQQGEwJVUzETMBEG\r\nA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU\r\nMBIGA1UECwwLU1NPUHJvdmlkZXIxFjAUBgNVBAMMDXRyaWFsLTgzMDA0OTIxHDAaBgkqhkiG9w0B\r\nCQEWDWluZm9Ab2t0YS5jb20wHhcNMjUwMjA3MDIxNjA2WhcNMzUwMjA3MDIxNzA2WjCBlTELMAkG\r\nA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTAL\r\nBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRYwFAYDVQQDDA10cmlhbC04MzAwNDky\r\nMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\r\nCgKCAQEA77F1zVDdlLhkMedrSgUFIal8mINt54kbhUc/wdwY3ylJ00JMKHCcajnbIpaZ+GR3Xt9r\r\nlAoZygi5GBNQTXbatlGGtwCTDBZT5hLJP3HTAth6LJxjmTl5ae2zP4JabgQIMmXNuWaQr9AFVynH\r\nYnPiKL+DRYw7xnYq2Kf8e9ha/EofATejcxW7VE/LORRVPt4m9c26VGljPXIGUbxRR1Eest+DH7ki\r\nXByi3RH1XByfjECvxrZNmRc0mj51kAGKs/wBdE23snMlUEr+YSoVm5A7hPrDcTpvFrIqmCj8oi+Z\r\nSZxJM5pD6B1qFxH668wCSmlWTAjMJk79wIoKsd+5uPyhtwIDAQABMA0GCSqGSIb3DQEBCwUAA4IB\r\nAQBOR1avzkfsQNeCUdUx8jg5z/IhFO7jxt6558g233gWqPCrBhRgzJyEnYft8Ah9Ka0vEU7vBio+\r\n4mW7KEo1Bh/ulxg5Ytd4QLILuP51Ux6X2U+TGqWLwF9GpXFPT0oEBhULs4iWQIlbYmm8y9/D/aWh\r\nzy8w3FYF/ZujAcL+34UddHRLX2UDFd4LyZR7Q/jd+Db5+1FafjJ5tbLMXWeLcHb8NQN3JGhPflkl\r\nCe/MIZQGu6ZXe/re3z9naniGxVjWbfxSj6CiS8cPSaKem4W/+txubjN/ItPZoTKR/kB/97AvRtMi\r\nt9r9NJ7IlhHnVOvwvA36P7usbjj8nSMSsXRyfWmg\r\n-----END CERTIFICATE-----",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:IdentityProvider:EntityId",
+    "label": "development/client/100",
+    "value": "http://www.okta.com/enfegseHwlESdfsd3eRXog==",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "SYNjCHU8isdkFtkB3UWnbz3yh7G88lH3Acm-hlpFN3s",
+    "content": {
+      "etag": "SYNjCHU8isdkFtkB3UWnbz3yh7G88lH3Acm-hlpFN3s",
+      "key": "Azure:Saml:IdentityProvider:EntityId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "http://www.okta.com/enfegseHwlESdfsd3eRXog==",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:IdentityProvider:SingleLogoutServiceUrl",
+    "label": "development/client/100",
+    "value": "https://trial-8300492.okta.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "zDAi9BszI1eaQunIDFA80IQ6V6b2dRXTaHM1qgkudeg",
+    "content": {
+      "etag": "zDAi9BszI1eaQunIDFA80IQ6V6b2dRXTaHM1qgkudeg",
+      "key": "Azure:Saml:IdentityProvider:SingleLogoutServiceUrl",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://trial-8300492.okta.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:IdentityProvider:SingleSignOnServiceUrl",
+    "label": "development/client/100",
+    "value": "https://trial-8300492.okta.com/app/trial-8300492_ssotesting_1/exkolzba4twYfoscq697/sso/saml",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "faNbihREyzJTZOH6m6rSG9-1kbBrat4qSngv-iaGylI",
+    "content": {
+      "etag": "faNbihREyzJTZOH6m6rSG9-1kbBrat4qSngv-iaGylI",
+      "key": "Azure:Saml:IdentityProvider:SingleSignOnServiceUrl",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://trial-8300492.okta.com/app/trial-8300492_ssotesting_1/exkolzba4twYfoscq697/sso/saml",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:ServiceProvider:AssertionConsumerServiceUrl",
+    "label": "development/client/100",
+    "value": "https://clientdev2.lessen360.com/login",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "L3dL4_CEHIxdMpAGqJPU6PD1v05dwEKwQQjAVQyBebw",
+    "content": {
+      "etag": "L3dL4_CEHIxdMpAGqJPU6PD1v05dwEKwQQjAVQyBebw",
+      "key": "Azure:Saml:ServiceProvider:AssertionConsumerServiceUrl",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://clientdev2.lessen360.com/login",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:Saml:ServiceProvider:EntityId",
+    "label": "development/client/100",
+    "value": "https://clientdev2.lessen360.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "um1jLFohN159TT5A0vV8MNDHbswf0oA-G_db7rTc8iY",
+    "content": {
+      "etag": "um1jLFohN159TT5A0vV8MNDHbswf0oA-G_db7rTc8iY",
+      "key": "Azure:Saml:ServiceProvider:EntityId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://clientdev2.lessen360.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:ConnectionString",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-ServiceBus-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:33:00+00:00",
+    "tags": {},
+    "etag": "DgyT52dm9eWORjGlOm-ghioSVfDIhJPqnVRxHmvR4HY",
+    "content": {
+      "etag": "DgyT52dm9eWORjGlOm-ghioSVfDIhJPqnVRxHmvR4HY",
+      "key": "Azure:ServiceBus:ConnectionString",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-ServiceBus-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:33:00.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:ConnectionString",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-ServiceBus-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:33:11+00:00",
+    "tags": {},
+    "etag": "S9CAk60QTbrARhPaniWSVDgAiONFwAbq6ZIuIy-v7E0",
+    "content": {
+      "etag": "S9CAk60QTbrARhPaniWSVDgAiONFwAbq6ZIuIy-v7E0",
+      "key": "Azure:ServiceBus:ConnectionString",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Azure-ServiceBus-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:33:11.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:ConsumerGroupName",
+    "label": "development/client/100",
+    "value": "fixtdomain",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "nW2Hq8mBDzMN-MpMAoHTWauvjWNccB8obvvjfYvzHhw",
+    "content": {
+      "etag": "nW2Hq8mBDzMN-MpMAoHTWauvjWNccB8obvvjfYvzHhw",
+      "key": "Azure:ServiceBus:ConsumerGroupName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "fixtdomain",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:ConsumerGroupName",
+    "label": "local/client/100",
+    "value": "fixtdomain",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "OyLOL6ligz7qm14zamTE9UmE7l4YaybcpzWEmT5ZnFw",
+    "content": {
+      "etag": "OyLOL6ligz7qm14zamTE9UmE7l4YaybcpzWEmT5ZnFw",
+      "key": "Azure:ServiceBus:ConsumerGroupName",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "fixtdomain",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:FailedRetryCount",
+    "label": "development/client/100",
+    "value": "0",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "asCfLhBQdu_Cdf41QBFam6M-36aUgk6oy6ilLacUhfA",
+    "content": {
+      "etag": "asCfLhBQdu_Cdf41QBFam6M-36aUgk6oy6ilLacUhfA",
+      "key": "Azure:ServiceBus:FailedRetryCount",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "0",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:FailedRetryCount",
+    "label": "local/client/100",
+    "value": "8",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "jbkAbwj28f9wjH5Pp2I69OuIX6Gzl23Q4sI1OWcNg70",
+    "content": {
+      "etag": "jbkAbwj28f9wjH5Pp2I69OuIX6Gzl23Q4sI1OWcNg70",
+      "key": "Azure:ServiceBus:FailedRetryCount",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "8",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:TopicPath",
+    "label": "development/client/100",
+    "value": "sbt-csx-100-dev-sea-1",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:52:21+00:00",
+    "tags": {},
+    "etag": "pq9wNmEwueY2qmv0pLi4cmXEQcFgdOkOi9Mu2bIbCpA",
+    "content": {
+      "etag": "pq9wNmEwueY2qmv0pLi4cmXEQcFgdOkOi9Mu2bIbCpA",
+      "key": "Azure:ServiceBus:TopicPath",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "sbt-csx-100-dev-sea-1",
+      "last_modified": "2025-07-22T08:52:21.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Azure:ServiceBus:TopicPath",
+    "label": "local/client/100",
+    "value": "sbt-csx-100-dev-sea-1",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:52:29+00:00",
+    "tags": {},
+    "etag": "Ij41ilB0nH5XTvrF0EQgTwgBaRBqWODCqprepTUpQm8",
+    "content": {
+      "etag": "Ij41ilB0nH5XTvrF0EQgTwgBaRBqWODCqprepTUpQm8",
+      "key": "Azure:ServiceBus:TopicPath",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "sbt-csx-100-dev-sea-1",
+      "last_modified": "2025-07-22T08:52:29.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "AzureMonitor:ConnectionString",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/AzureMonitor-ConnectionString\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:33:31+00:00",
+    "tags": {},
+    "etag": "sU6qMJUfXhWbPyF4k3AmWVH-TqozOuTBpeCn_ye0Itw",
+    "content": {
+      "etag": "sU6qMJUfXhWbPyF4k3AmWVH-TqozOuTBpeCn_ye0Itw",
+      "key": "AzureMonitor:ConnectionString",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/AzureMonitor-ConnectionString\"}",
+      "last_modified": "2025-07-22T08:33:31.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Cap:DashboardAccount:PasswordClear",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Cap-DashboardAccount-PasswordClear\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:34:03+00:00",
+    "tags": {},
+    "etag": "cvuPHhdO2Mzte4T2kU5XPmSiFuyPL13iO0E55fVahkg",
+    "content": {
+      "etag": "cvuPHhdO2Mzte4T2kU5XPmSiFuyPL13iO0E55fVahkg",
+      "key": "Cap:DashboardAccount:PasswordClear",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Cap-DashboardAccount-PasswordClear\"}",
+      "last_modified": "2025-07-22T08:34:03.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Cap:DashboardAccount:PasswordClear",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Cap-DashboardAccount-PasswordClear\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:34:14+00:00",
+    "tags": {},
+    "etag": "NcGhH-28J7vaAm8nZ55ozsbiUP1OmNiahHQccXDaPiw",
+    "content": {
+      "etag": "NcGhH-28J7vaAm8nZ55ozsbiUP1OmNiahHQccXDaPiw",
+      "key": "Cap:DashboardAccount:PasswordClear",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Cap-DashboardAccount-PasswordClear\"}",
+      "last_modified": "2025-07-22T08:34:14.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Cap:DashboardAccount:UserName",
+    "label": "development/client/100",
+    "value": "admin",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "pbr0sLFKC53rJ_U9A0C3b2jtdDc_WaU27D8w_HxHqLg",
+    "content": {
+      "etag": "pbr0sLFKC53rJ_U9A0C3b2jtdDc_WaU27D8w_HxHqLg",
+      "key": "Cap:DashboardAccount:UserName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "admin",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Cap:DashboardAccount:UserName",
+    "label": "local/client/100",
+    "value": "admin",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "gUtoxsPnaIjfxjB6x_Y8wMSd5sRG6gFyLGhV1BNewSE",
+    "content": {
+      "etag": "gUtoxsPnaIjfxjB6x_Y8wMSd5sRG6gFyLGhV1BNewSE",
+      "key": "Cap:DashboardAccount:UserName",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "admin",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Client:Features:UrlRedirect:Enabled",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "OlRcf3KvO25PrlqVMexWHTvag1xBUmDN6QD2YKAtNB4",
+    "content": {
+      "etag": "OlRcf3KvO25PrlqVMexWHTvag1xBUmDN6QD2YKAtNB4",
+      "key": "Client:Features:UrlRedirect:Enabled",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Client:TenantCode",
+    "label": "development/client/100",
+    "value": "Eqr",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "TWyuFCBBEPCXpejiNwxJDhJQViuO1XyNtMngb5Qb_n8",
+    "content": {
+      "etag": "TWyuFCBBEPCXpejiNwxJDhJQViuO1XyNtMngb5Qb_n8",
+      "key": "Client:TenantCode",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "Eqr",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Client:Ticket:DefaultPassword",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Client-Ticket-DefaultPassword\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:34:51+00:00",
+    "tags": {},
+    "etag": "wLmCEhzgXtT48wtRwPXP_9zJviKzBP6oiVZBj3jRByQ",
+    "content": {
+      "etag": "wLmCEhzgXtT48wtRwPXP_9zJviKzBP6oiVZBj3jRByQ",
+      "key": "Client:Ticket:DefaultPassword",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Client-Ticket-DefaultPassword\"}",
+      "last_modified": "2025-07-22T08:34:51.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Client:Ticket:DefaultPassword",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Client-Ticket-DefaultPassword\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:35:05+00:00",
+    "tags": {},
+    "etag": "qx5Sf8msH0IOJ5Z8teNtiQNsRntUL5vqZ1mRXIhVcwQ",
+    "content": {
+      "etag": "qx5Sf8msH0IOJ5Z8teNtiQNsRntUL5vqZ1mRXIhVcwQ",
+      "key": "Client:Ticket:DefaultPassword",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Client-Ticket-DefaultPassword\"}",
+      "last_modified": "2025-07-22T08:35:05.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:AbpTenantManagement",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-23T03:39:42+00:00",
+    "tags": {},
+    "etag": "623D6CswctpSzIO7y80YsNczI3DdcIpkURiYQJTZMGo",
+    "content": {
+      "etag": "623D6CswctpSzIO7y80YsNczI3DdcIpkURiYQJTZMGo",
+      "key": "ConnectionStrings:AbpTenantManagement",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+      "last_modified": "2025-07-23T03:39:42.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:AbpTenantManagement",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-08-08T09:16:56+00:00",
+    "tags": {},
+    "etag": "fhQ75kmYqT4j5jGxdT-Sl6J8ymUcxWuaylXaSGbJ-kg",
+    "content": {
+      "etag": "fhQ75kmYqT4j5jGxdT-Sl6J8ymUcxWuaylXaSGbJ-kg",
+      "key": "ConnectionStrings:AbpTenantManagement",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+      "last_modified": "2025-08-08T09:16:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:AbpTenantManagement",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-23T03:40:10+00:00",
+    "tags": {},
+    "etag": "jyWGII65VMMDaxBf_hAHNTCeXIZaAOlcfOm8BcYg91A",
+    "content": {
+      "etag": "jyWGII65VMMDaxBf_hAHNTCeXIZaAOlcfOm8BcYg91A",
+      "key": "ConnectionStrings:AbpTenantManagement",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-TenantManagement\"}",
+      "last_modified": "2025-07-23T03:40:10.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:Brain360",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-08-08T09:23:12+00:00",
+    "tags": {},
+    "etag": "2VzqN8VxsiQHfZK4jVMC5ShLTsYaGHrtRzmnXJYA97E",
+    "content": {
+      "etag": "2VzqN8VxsiQHfZK4jVMC5ShLTsYaGHrtRzmnXJYA97E",
+      "key": "ConnectionStrings:Brain360",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+      "last_modified": "2025-08-08T09:23:12.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:ClientDomain",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-25T03:22:13+00:00",
+    "tags": {},
+    "etag": "eUbk3uc5Gqzb4qdpB_ZCB0thBgrpFD021dvqZ0Q3aLM",
+    "content": {
+      "etag": "eUbk3uc5Gqzb4qdpB_ZCB0thBgrpFD021dvqZ0Q3aLM",
+      "key": "ConnectionStrings:ClientDomain",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+      "last_modified": "2025-07-25T03:22:13.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ConnectionStrings:ClientDomain",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:37:05+00:00",
+    "tags": {},
+    "etag": "sFPHgWaJQWOHioeWMon53imF04qgAoW-FqkGY66sqBo",
+    "content": {
+      "etag": "sFPHgWaJQWOHioeWMon53imF04qgAoW-FqkGY66sqBo",
+      "key": "ConnectionStrings:ClientDomain",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+      "last_modified": "2025-07-22T08:37:05.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Database:BotSharpMongoDb",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:38:26+00:00",
+    "tags": {},
+    "etag": "reYMCvmCJZIDR_380xgLoxXyjCHwWsk-4lYQQZJT2jY",
+    "content": {
+      "etag": "reYMCvmCJZIDR_380xgLoxXyjCHwWsk-4lYQQZJT2jY",
+      "key": "Database:BotSharpMongoDb",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+      "last_modified": "2025-07-22T08:38:26.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Database:Default",
+    "label": "development/client/100/brain360",
+    "value": "MongoRepository",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "ZScMiDYzaIxbcdOol33yDUy_ew9fLQHcKFeF_QWmsLA",
+    "content": {
+      "etag": "ZScMiDYzaIxbcdOol33yDUy_ew9fLQHcKFeF_QWmsLA",
+      "key": "Database:Default",
+      "label": "development/client/100/brain360",
+      "value": "MongoRepository",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Database:Default",
+    "label": "local/client/100/brain360",
+    "value": "MongoRepository",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "RM5sZesB1bDrMzKql9tvEZzoaycnBcOXz138d_LT7eU",
+    "content": {
+      "etag": "RM5sZesB1bDrMzKql9tvEZzoaycnBcOXz138d_LT7eU",
+      "key": "Database:Default",
+      "label": "local/client/100/brain360",
+      "value": "MongoRepository",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Database:MongoDb",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:39:14+00:00",
+    "tags": {},
+    "etag": "wK-SsFb-VNHmt5UbnN6izhKB1D6Z0hVVKYk55TRsDIM",
+    "content": {
+      "etag": "wK-SsFb-VNHmt5UbnN6izhKB1D6Z0hVVKYk55TRsDIM",
+      "key": "Database:MongoDb",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+      "last_modified": "2025-07-22T08:39:14.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Database:MongoDb",
+    "label": "local/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:39:28+00:00",
+    "tags": {},
+    "etag": "fsHF-vHVFYba0tt1c5P1orPQJRS4iBvT0vpAabgF4C0",
+    "content": {
+      "etag": "fsHF-vHVFYba0tt1c5P1orPQJRS4iBvT0vpAabgF4C0",
+      "key": "Database:MongoDb",
+      "label": "local/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-Brain360-Cosmos\"}",
+      "last_modified": "2025-07-22T08:39:28.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:AllowList:Enable",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "yPFIjX_zCu_EMZYXJYBxSFYso-fUr4VycVaTXF_N7Ww",
+    "content": {
+      "etag": "yPFIjX_zCu_EMZYXJYBxSFYso-fUr4VycVaTXF_N7Ww",
+      "key": "Email:AllowList:Enable",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:AllowList:Enable",
+    "label": "local/client/100",
+    "value": "true",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "nyGBBAmhZy0ooxRkYV4dpkemgjRZKckroT7wu4vwgxM",
+    "content": {
+      "etag": "nyGBBAmhZy0ooxRkYV4dpkemgjRZKckroT7wu4vwgxM",
+      "key": "Email:AllowList:Enable",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:AllowList:To",
+    "label": "development/client/100",
+    "value": "csfixttest@gmail.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "tvJ093Lw59WjkKfZdMu2s9tkE9vyFFNHtjqwItedfwQ",
+    "content": {
+      "etag": "tvJ093Lw59WjkKfZdMu2s9tkE9vyFFNHtjqwItedfwQ",
+      "key": "Email:AllowList:To",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "csfixttest@gmail.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:AllowList:To",
+    "label": "local/client/100",
+    "value": "csfixttest@gmail.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "rmp1BPWASwFeGC4SkXJHnSuXM4FHH9zoycj6pNZX8I4",
+    "content": {
+      "etag": "rmp1BPWASwFeGC4SkXJHnSuXM4FHH9zoycj6pNZX8I4",
+      "key": "Email:AllowList:To",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "csfixttest@gmail.com",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:Provider",
+    "label": "development/client/100",
+    "value": "AzureEmail",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "72BTLGDZe5lnyNtv24ZqAbB1Pkso-Mtk-PCZPfIPttM",
+    "content": {
+      "etag": "72BTLGDZe5lnyNtv24ZqAbB1Pkso-Mtk-PCZPfIPttM",
+      "key": "Email:Provider",
+      "label": "development/client/100",
+      "value": "AzureEmail",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:SendLimitNumberPerMinute",
+    "label": "development/client/100",
+    "value": "3",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "MEL0qL0n7N1Nzv2lpe6hqOsg8mzOJRhDfPxj5k9gej8",
+    "content": {
+      "etag": "MEL0qL0n7N1Nzv2lpe6hqOsg8mzOJRhDfPxj5k9gej8",
+      "key": "Email:SendLimitNumberPerMinute",
+      "label": "development/client/100",
+      "value": "3",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Email:SendLimitNumberPerMinute",
+    "label": "local/client/100",
+    "value": "3",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:58+00:00",
+    "tags": {},
+    "etag": "8RfFR8RMkmP9RyhndE0QFQ4R5WZfKyZ9dwuKrNIIWbI",
+    "content": {
+      "etag": "8RfFR8RMkmP9RyhndE0QFQ4R5WZfKyZ9dwuKrNIIWbI",
+      "key": "Email:SendLimitNumberPerMinute",
+      "label": "local/client/100",
+      "value": "3",
+      "last_modified": "2025-07-22T07:35:58.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "FixtDataProtectorEncyptionKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/FixtDataProtectorEncyptionKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:41:26+00:00",
+    "tags": {},
+    "etag": "xmqCcXcx9i0lriIjlGrgAzf0n-e4wP4miiD550D0Hzs",
+    "content": {
+      "etag": "xmqCcXcx9i0lriIjlGrgAzf0n-e4wP4miiD550D0Hzs",
+      "key": "FixtDataProtectorEncyptionKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/FixtDataProtectorEncyptionKey\"}",
+      "last_modified": "2025-07-22T08:41:26.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "FixtDataProtectorEncyptionKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/FixtDataProtectorEncyptionKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:41:37+00:00",
+    "tags": {},
+    "etag": "W_USiP0ZwgBk7ZJl6eBzcW2_9a0tI0Q-1DRcOHeaf-4",
+    "content": {
+      "etag": "W_USiP0ZwgBk7ZJl6eBzcW2_9a0tI0Q-1DRcOHeaf-4",
+      "key": "FixtDataProtectorEncyptionKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/FixtDataProtectorEncyptionKey\"}",
+      "last_modified": "2025-07-22T08:41:37.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Android:Cloud:Message:Config",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Android-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:41:46+00:00",
+    "tags": {},
+    "etag": "bJvSbafBQBZyft6HF-bEHvC3X2dU7T25gbdA-Z5NGVU",
+    "content": {
+      "etag": "bJvSbafBQBZyft6HF-bEHvC3X2dU7T25gbdA-Z5NGVU",
+      "key": "Google:FireBase:PushNotification:Android:Cloud:Message:Config",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Android-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:41:46.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Android:Cloud:Message:Config",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Android-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:41:54+00:00",
+    "tags": {},
+    "etag": "p-pa5CKhrLfsXKVgWNd6bXD22arbtVzUj32VIHb8sSo",
+    "content": {
+      "etag": "p-pa5CKhrLfsXKVgWNd6bXD22arbtVzUj32VIHb8sSo",
+      "key": "Google:FireBase:PushNotification:Android:Cloud:Message:Config",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Android-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:41:54.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Ios:Cloud:Message:Config",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Ios-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:03+00:00",
+    "tags": {},
+    "etag": "Uyw0WfpYoWlSNxOZq1Cyy9sq05KEbE6UjyWID7FgnRA",
+    "content": {
+      "etag": "Uyw0WfpYoWlSNxOZq1Cyy9sq05KEbE6UjyWID7FgnRA",
+      "key": "Google:FireBase:PushNotification:Ios:Cloud:Message:Config",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Ios-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:42:03.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Ios:Cloud:Message:Config",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Ios-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:12+00:00",
+    "tags": {},
+    "etag": "HqzNtcPlvY3l8KfKAg4roUadKv5FtK2x3tKYEyrNFto",
+    "content": {
+      "etag": "HqzNtcPlvY3l8KfKAg4roUadKv5FtK2x3tKYEyrNFto",
+      "key": "Google:FireBase:PushNotification:Ios:Cloud:Message:Config",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Ios-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:42:12.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:ServiceAccount",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-ServiceAccount\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:20+00:00",
+    "tags": {},
+    "etag": "tBniVmeHlqBMuvyKKUCX4YI3QsS-qOPsqybyJwTCq70",
+    "content": {
+      "etag": "tBniVmeHlqBMuvyKKUCX4YI3QsS-qOPsqybyJwTCq70",
+      "key": "Google:FireBase:PushNotification:ServiceAccount",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-ServiceAccount\"}",
+      "last_modified": "2025-07-22T08:42:20.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:ServiceAccount",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-ServiceAccount\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:29+00:00",
+    "tags": {},
+    "etag": "V72ELb7MHM1C2WVG7O1J_TsTsYjM9_FnXt-PULTvB2Q",
+    "content": {
+      "etag": "V72ELb7MHM1C2WVG7O1J_TsTsYjM9_FnXt-PULTvB2Q",
+      "key": "Google:FireBase:PushNotification:ServiceAccount",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-ServiceAccount\"}",
+      "last_modified": "2025-07-22T08:42:29.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Web:Cloud:Message:Config",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Web-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:37+00:00",
+    "tags": {},
+    "etag": "nIue3jByc1GSberqRrB5FlbbRe4OJBBjKHHP4nRbyac",
+    "content": {
+      "etag": "nIue3jByc1GSberqRrB5FlbbRe4OJBBjKHHP4nRbyac",
+      "key": "Google:FireBase:PushNotification:Web:Cloud:Message:Config",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Web-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:42:37.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:FireBase:PushNotification:Web:Cloud:Message:Config",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Web-Cloud-Message-Config\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:42:45+00:00",
+    "tags": {},
+    "etag": "IgSiUVeDMu9udeB6L9s8op9YbbS0LrQycGJb9VCAqXQ",
+    "content": {
+      "etag": "IgSiUVeDMu9udeB6L9s8op9YbbS0LrQycGJb9VCAqXQ",
+      "key": "Google:FireBase:PushNotification:Web:Cloud:Message:Config",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-FireBase-PushNotification-Web-Cloud-Message-Config\"}",
+      "last_modified": "2025-07-22T08:42:45.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:Direction:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Direction-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:00+00:00",
+    "tags": {},
+    "etag": "mPCEKRSbol2KR3p1z0VMomD3qK7PWu2Xun60lJJ8UGk",
+    "content": {
+      "etag": "mPCEKRSbol2KR3p1z0VMomD3qK7PWu2Xun60lJJ8UGk",
+      "key": "Google:Maps:Domain:Direction:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Direction-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:00.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:Direction:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Direction-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:08+00:00",
+    "tags": {},
+    "etag": "j_zc81pAl57pzyK5mrBWtoBH5OedxKggVi9kgwvfnsk",
+    "content": {
+      "etag": "j_zc81pAl57pzyK5mrBWtoBH5OedxKggVi9kgwvfnsk",
+      "key": "Google:Maps:Domain:Direction:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Direction-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:08.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:GeoCoding:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-GeoCoding-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:15+00:00",
+    "tags": {},
+    "etag": "W-Ltr-YfKVSodNfp-xMPB02reYMk1RtAjuzuCIcm2Zw",
+    "content": {
+      "etag": "W-Ltr-YfKVSodNfp-xMPB02reYMk1RtAjuzuCIcm2Zw",
+      "key": "Google:Maps:Domain:GeoCoding:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-GeoCoding-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:15.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:GeoCoding:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-GeoCoding-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:23+00:00",
+    "tags": {},
+    "etag": "4kFvuBH11Pw97D1QGXn6Q5iMgtCxVB4o-sjtSNXrgx4",
+    "content": {
+      "etag": "4kFvuBH11Pw97D1QGXn6Q5iMgtCxVB4o-sjtSNXrgx4",
+      "key": "Google:Maps:Domain:GeoCoding:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-GeoCoding-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:23.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:Places:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Places-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:30+00:00",
+    "tags": {},
+    "etag": "x9MplIAPill8-lES0QAOx2oEbxc8qoiXPcWvTkoR1Dk",
+    "content": {
+      "etag": "x9MplIAPill8-lES0QAOx2oEbxc8qoiXPcWvTkoR1Dk",
+      "key": "Google:Maps:Domain:Places:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Places-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:30.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Domain:Places:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Places-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:37+00:00",
+    "tags": {},
+    "etag": "d535RxIolscH638P9Bnbbsf6DDbtySH1q1-O7OY5e50",
+    "content": {
+      "etag": "d535RxIolscH638P9Bnbbsf6DDbtySH1q1-O7OY5e50",
+      "key": "Google:Maps:Domain:Places:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Domain-Places-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:37.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:Direction:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Direction-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:47+00:00",
+    "tags": {},
+    "etag": "YePRQu_IXNDQIg3kHX-hz4omBOVTPDB7srwY3hleE3Y",
+    "content": {
+      "etag": "YePRQu_IXNDQIg3kHX-hz4omBOVTPDB7srwY3hleE3Y",
+      "key": "Google:Maps:Web:Direction:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Direction-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:47.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:Direction:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Direction-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:43:56+00:00",
+    "tags": {},
+    "etag": "DRl5AQJY3ijzeqn0wbsUaJJAVG4D_ba9Ktmu-veK6K8",
+    "content": {
+      "etag": "DRl5AQJY3ijzeqn0wbsUaJJAVG4D_ba9Ktmu-veK6K8",
+      "key": "Google:Maps:Web:Direction:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Direction-ApiKey\"}",
+      "last_modified": "2025-07-22T08:43:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:GeoCoding:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-GeoCoding-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:03+00:00",
+    "tags": {},
+    "etag": "JlclR-KIBbxL-zTv_gtMFvV83hskZRqIWxFNLs-ZbJ8",
+    "content": {
+      "etag": "JlclR-KIBbxL-zTv_gtMFvV83hskZRqIWxFNLs-ZbJ8",
+      "key": "Google:Maps:Web:GeoCoding:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-GeoCoding-ApiKey\"}",
+      "last_modified": "2025-07-22T08:44:03.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:GeoCoding:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-GeoCoding-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:10+00:00",
+    "tags": {},
+    "etag": "78fjpq9tJKeGOLTTBo4i5Z0Etg7ZQ1VTb9oX0ZNFh1A",
+    "content": {
+      "etag": "78fjpq9tJKeGOLTTBo4i5Z0Etg7ZQ1VTb9oX0ZNFh1A",
+      "key": "Google:Maps:Web:GeoCoding:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-GeoCoding-ApiKey\"}",
+      "last_modified": "2025-07-22T08:44:10.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:Places:ApiKey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Places-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:19+00:00",
+    "tags": {},
+    "etag": "8x8pgT-0jTdxUzG-8jZVbfH4eSEI1EKZU5PEkFhRGTs",
+    "content": {
+      "etag": "8x8pgT-0jTdxUzG-8jZVbfH4eSEI1EKZU5PEkFhRGTs",
+      "key": "Google:Maps:Web:Places:ApiKey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Places-ApiKey\"}",
+      "last_modified": "2025-07-22T08:44:19.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Google:Maps:Web:Places:ApiKey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Places-ApiKey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:25+00:00",
+    "tags": {},
+    "etag": "wlDiiJeewiCoufpeJ9zppEejgpUHLByOQTPZ2zy6LUw",
+    "content": {
+      "etag": "wlDiiJeewiCoufpeJ9zppEejgpUHLByOQTPZ2zy6LUw",
+      "key": "Google:Maps:Web:Places:ApiKey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Google-Maps-Web-Places-ApiKey\"}",
+      "last_modified": "2025-07-22T08:44:25.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Hangfire:DashboardAccount:PasswordClear",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Hangfire-DashboardAccount-PasswordClear\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:33+00:00",
+    "tags": {},
+    "etag": "vIaOqsto1r6YD7laSZhMIVYOxCV3gfSdynyynXp1nOk",
+    "content": {
+      "etag": "vIaOqsto1r6YD7laSZhMIVYOxCV3gfSdynyynXp1nOk",
+      "key": "Hangfire:DashboardAccount:PasswordClear",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Hangfire-DashboardAccount-PasswordClear\"}",
+      "last_modified": "2025-07-22T08:44:33.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Hangfire:DashboardAccount:PasswordClear",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Hangfire-DashboardAccount-PasswordClear\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:44:41+00:00",
+    "tags": {},
+    "etag": "mwjAroUeYkwM3oRUUx1RboylNkbmHTLZHbtBMrSJHOI",
+    "content": {
+      "etag": "mwjAroUeYkwM3oRUUx1RboylNkbmHTLZHbtBMrSJHOI",
+      "key": "Hangfire:DashboardAccount:PasswordClear",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Hangfire-DashboardAccount-PasswordClear\"}",
+      "last_modified": "2025-07-22T08:44:41.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Hangfire:DashboardAccount:UserName",
+    "label": "development/client/100",
+    "value": "admin",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:58+00:00",
+    "tags": {},
+    "etag": "OmYKzhqyCMdKb-RsS4YynT25PtX5ZYp-9Ytvb2rvOCg",
+    "content": {
+      "etag": "OmYKzhqyCMdKb-RsS4YynT25PtX5ZYp-9Ytvb2rvOCg",
+      "key": "Hangfire:DashboardAccount:UserName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "admin",
+      "last_modified": "2025-07-22T07:35:58.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Hangfire:DashboardAccount:UserName",
+    "label": "local/client/100",
+    "value": "admin",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "iCLVmrmoUKYWMC40W4stAM8qwZCfnxR2FTuPdV0fU6I",
+    "content": {
+      "etag": "iCLVmrmoUKYWMC40W4stAM8qwZCfnxR2FTuPdV0fU6I",
+      "key": "Hangfire:DashboardAccount:UserName",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "admin",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "HttpHandler:BaseAddress",
+    "label": "development/client/100/brain360",
+    "value": "http://ca-csx-domain-100-dev-sea-1",
+    "content_type": "",
+    "last_modified": "2025-07-22T08:45:44+00:00",
+    "tags": {},
+    "etag": "Q5Zf7C216DYjJ4od0RcgCsWlEliMl1f3iv_PvPHoqHc",
+    "content": {
+      "etag": "Q5Zf7C216DYjJ4od0RcgCsWlEliMl1f3iv_PvPHoqHc",
+      "key": "HttpHandler:BaseAddress",
+      "label": "development/client/100/brain360",
+      "content_type": "",
+      "value": "http://ca-csx-domain-100-dev-sea-1",
+      "last_modified": "2025-07-22T08:45:44.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "HttpResponseHeaders:ContentSecurityPolicy",
+    "label": "development/client/100",
+    "value": "default-src 'self';frame-ancestors 'none';frame-src 'self' https://app.powerbi.com;img-src 'self' 'unsafe-inline' data: blob: https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.bootcss.com https://cdn.amplitude.com https://static.hotjar.com https://script.hotjar.com https://stcsxfrontenddevsea1.z23.web.core.windows.net; style-src 'self' 'unsafe-inline' https://cdn.bootcdn.net https://cdnjs.cloudflare.com https://fonts.googleapis.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;font-src data: https://fonts.gstatic.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;connect-src 'self' wss://ws.hotjar.com https://api2.amplitude.com https://metrics.hotjar.io  https://maps.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://vc.hotjar.io https://content.hotjar.io https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;media-src 'self' https://stcsx100devsea1.blob.core.windows.net;",
+    "content_type": "",
+    "last_modified": "2025-07-24T08:49:21+00:00",
+    "tags": {},
+    "etag": "LhsCAEfPiVIf3NbOf4mbTkVUuY0YhBI-6ZwoNnDw9z8",
+    "content": {
+      "etag": "LhsCAEfPiVIf3NbOf4mbTkVUuY0YhBI-6ZwoNnDw9z8",
+      "key": "HttpResponseHeaders:ContentSecurityPolicy",
+      "label": "development/client/100",
+      "content_type": "",
+      "value": "default-src 'self';frame-ancestors 'none';frame-src 'self' https://app.powerbi.com;img-src 'self' 'unsafe-inline' data: blob: https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.bootcss.com https://cdn.amplitude.com https://static.hotjar.com https://script.hotjar.com https://stcsxfrontenddevsea1.z23.web.core.windows.net; style-src 'self' 'unsafe-inline' https://cdn.bootcdn.net https://cdnjs.cloudflare.com https://fonts.googleapis.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;font-src data: https://fonts.gstatic.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;connect-src 'self' wss://ws.hotjar.com https://api2.amplitude.com https://metrics.hotjar.io  https://maps.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://vc.hotjar.io https://content.hotjar.io https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;media-src 'self' https://stcsx100devsea1.blob.core.windows.net;",
+      "last_modified": "2025-07-24T08:49:21.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "HttpResponseHeaders:ContentSecurityPolicy",
+    "label": "local/client/100",
+    "value": "default-src 'self';frame-ancestors 'none';frame-src 'self' https://app.powerbi.com;img-src 'self' 'unsafe-inline' data: blob: https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.bootcss.com https://cdn.amplitude.com https://static.hotjar.com https://script.hotjar.com https://stcsxfrontenddevsea1.z23.web.core.windows.net; style-src 'self' 'unsafe-inline' https://cdn.bootcdn.net https://cdnjs.cloudflare.com https://fonts.googleapis.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;font-src data: https://fonts.gstatic.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;connect-src 'self' wss://ws.hotjar.com https://api2.amplitude.com https://metrics.hotjar.io  https://maps.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://vc.hotjar.io https://content.hotjar.io https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;media-src 'self' https://stcsx100devsea1.blob.core.windows.net;",
+    "content_type": "",
+    "last_modified": "2025-07-24T08:49:32+00:00",
+    "tags": {},
+    "etag": "dMZ2bdAPOwZkyyKF6uEDgu78g9DEUpkbJ4o0sV8NHVo",
+    "content": {
+      "etag": "dMZ2bdAPOwZkyyKF6uEDgu78g9DEUpkbJ4o0sV8NHVo",
+      "key": "HttpResponseHeaders:ContentSecurityPolicy",
+      "label": "local/client/100",
+      "content_type": "",
+      "value": "default-src 'self';frame-ancestors 'none';frame-src 'self' https://app.powerbi.com;img-src 'self' 'unsafe-inline' data: blob: https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.bootcss.com https://cdn.amplitude.com https://static.hotjar.com https://script.hotjar.com https://stcsxfrontenddevsea1.z23.web.core.windows.net; style-src 'self' 'unsafe-inline' https://cdn.bootcdn.net https://cdnjs.cloudflare.com https://fonts.googleapis.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;font-src data: https://fonts.gstatic.com https://stcsxfrontenddevsea1.z23.web.core.windows.net;connect-src 'self' wss://ws.hotjar.com https://api2.amplitude.com https://metrics.hotjar.io  https://maps.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://vc.hotjar.io https://content.hotjar.io https://stcsxfrontenddevsea1.z23.web.core.windows.net https://stcsx100devsea1.blob.core.windows.net;media-src 'self' https://stcsx100devsea1.blob.core.windows.net;",
+      "last_modified": "2025-07-24T08:49:32.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "IdentityServer:Issuer",
+    "label": "development/client/100",
+    "value": "https://app-dev.lessen360.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:46:26+00:00",
+    "tags": {},
+    "etag": "KV3U1lVNsKbOQ0ElMD2DZb_P3W0ZdktaALBobrTHSpQ",
+    "content": {
+      "etag": "KV3U1lVNsKbOQ0ElMD2DZb_P3W0ZdktaALBobrTHSpQ",
+      "key": "IdentityServer:Issuer",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://app-dev.lessen360.com",
+      "last_modified": "2025-07-22T08:46:26.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "IdentityServer:Issuer",
+    "label": "local/client/100",
+    "value": "https://app-dev.lessen360.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:46:33+00:00",
+    "tags": {},
+    "etag": "fOknXyppktf6lEaMme5EZrPsJMefata6Zzfomx12cKw",
+    "content": {
+      "etag": "fOknXyppktf6lEaMme5EZrPsJMefata6Zzfomx12cKw",
+      "key": "IdentityServer:Issuer",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "https://app-dev.lessen360.com",
+      "last_modified": "2025-07-22T08:46:33.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "IdentityServer:JwtSigningCredential",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/IdentityServer-JwtSigningCredential\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:46:43+00:00",
+    "tags": {},
+    "etag": "xrCVXy7UHxjaR5pPRTvR8H0XQWCx-Nfu65qm85YwHv0",
+    "content": {
+      "etag": "xrCVXy7UHxjaR5pPRTvR8H0XQWCx-Nfu65qm85YwHv0",
+      "key": "IdentityServer:JwtSigningCredential",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/IdentityServer-JwtSigningCredential\"}",
+      "last_modified": "2025-07-22T08:46:43.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "IdentityServer:JwtSigningCredential",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/IdentityServer-JwtSigningCredential\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:46:51+00:00",
+    "tags": {},
+    "etag": "tJfKIfiWkD3d66_nXbHgEUshdjoO8oe_VXJa2fxu-MM",
+    "content": {
+      "etag": "tJfKIfiWkD3d66_nXbHgEUshdjoO8oe_VXJa2fxu-MM",
+      "key": "IdentityServer:JwtSigningCredential",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/IdentityServer-JwtSigningCredential\"}",
+      "last_modified": "2025-07-22T08:46:51.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:LessenPro:IsEnable",
+    "label": "development/client/100",
+    "value": "false",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:58+00:00",
+    "tags": {},
+    "etag": "GV0hxcmixipa1weXEmw824St0JaLPLsTDkn4hvpqqQY",
+    "content": {
+      "etag": "GV0hxcmixipa1weXEmw824St0JaLPLsTDkn4hvpqqQY",
+      "key": "Integration:LessenPro:IsEnable",
+      "label": "development/client/100",
+      "value": "false",
+      "last_modified": "2025-07-22T07:35:58.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:LiveCutoffTime",
+    "label": "development/client/100",
+    "value": "2025-02-28T01:17:50",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "V6IzPns71QPd8CD-yIoIEFACZhyORKAZjkIF-m4EiHs",
+    "content": {
+      "etag": "V6IzPns71QPd8CD-yIoIEFACZhyORKAZjkIF-m4EiHs",
+      "key": "Integration:LiveCutoffTime",
+      "label": "development/client/100",
+      "value": "2025-02-28T01:17:50",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:ApiConfig:Password",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Integration-MRI-ApiConfig-Password\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:47:02+00:00",
+    "tags": {},
+    "etag": "PKtw9gFCkuVegzMOW40MtUmpGtjc-xOusfegEGvyNf8",
+    "content": {
+      "etag": "PKtw9gFCkuVegzMOW40MtUmpGtjc-xOusfegEGvyNf8",
+      "key": "Integration:MRI:ApiConfig:Password",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Integration-MRI-ApiConfig-Password\"}",
+      "last_modified": "2025-07-22T08:47:02.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:ApiConfig:ServiceUrl",
+    "label": "development/client/100",
+    "value": "https://testmixapi03.eqrworld.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "vv8BfGj2SFPN1_8f7tHOgW3u-7Z0yuAr4N5RaZDZi2M",
+    "content": {
+      "etag": "vv8BfGj2SFPN1_8f7tHOgW3u-7Z0yuAr4N5RaZDZi2M",
+      "key": "Integration:MRI:ApiConfig:ServiceUrl",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://testmixapi03.eqrworld.com",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:ApiConfig:UserName",
+    "label": "development/client/100",
+    "value": "LESSENAPI",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:58+00:00",
+    "tags": {},
+    "etag": "9l9h3dZIJLC10y1uoGgbUMDeLGwJ3BR6c_y_CmspILY",
+    "content": {
+      "etag": "9l9h3dZIJLC10y1uoGgbUMDeLGwJ3BR6c_y_CmspILY",
+      "key": "Integration:MRI:ApiConfig:UserName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "LESSENAPI",
+      "last_modified": "2025-07-22T07:35:58.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:IsEnable",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "agRWBeiCGz-l9yQ9b2qylIkftQvB6k88B3v_OUjQjNw",
+    "content": {
+      "etag": "agRWBeiCGz-l9yQ9b2qylIkftQvB6k88B3v_OUjQjNw",
+      "key": "Integration:MRI:IsEnable",
+      "label": "development/client/100",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:SftpConfig:Host",
+    "label": "development/client/100",
+    "value": "sftp.southeastasia.cloudapp.azure.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "SeHkrBma1Nlq7q1XxDIcSM6K8ZApWNMcGa3gvUuieYo",
+    "content": {
+      "etag": "SeHkrBma1Nlq7q1XxDIcSM6K8ZApWNMcGa3gvUuieYo",
+      "key": "Integration:MRI:SftpConfig:Host",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "sftp.southeastasia.cloudapp.azure.com",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:SftpConfig:Password",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Integration-MRI-SftpConfig-Password\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:47:14+00:00",
+    "tags": {},
+    "etag": "dVr1fESL4NOp-vczKeGM9wCto6O1RTK37nMMN6ClE00",
+    "content": {
+      "etag": "dVr1fESL4NOp-vczKeGM9wCto6O1RTK37nMMN6ClE00",
+      "key": "Integration:MRI:SftpConfig:Password",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Integration-MRI-SftpConfig-Password\"}",
+      "last_modified": "2025-07-22T08:47:14.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:MRI:SftpConfig:UserName",
+    "label": "development/client/100",
+    "value": "sftpuser",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "CWvxgguybfxeZdbDA_G-rd1jCmXBQJIGvvQClRpEvBY",
+    "content": {
+      "etag": "CWvxgguybfxeZdbDA_G-rd1jCmXBQJIGvvQClRpEvBY",
+      "key": "Integration:MRI:SftpConfig:UserName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "sftpuser",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:One:ApiConfig:Password",
+    "label": "development/client/100",
+    "value": "vBNM<>?123/Sv232",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "zNVaBqjixcYUc7mue6zM31YV8LwnKgD52_xQkmphro8",
+    "content": {
+      "etag": "zNVaBqjixcYUc7mue6zM31YV8LwnKgD52_xQkmphro8",
+      "key": "Integration:One:ApiConfig:Password",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "vBNM<>?123/Sv232",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:One:ApiConfig:UserName",
+    "label": "development/client/100",
+    "value": "Berkshire",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "cXFCK2H8bZeak6cmUl9jBt94vmVaWxwO-FPhduX4Kn0",
+    "content": {
+      "etag": "cXFCK2H8bZeak6cmUl9jBt94vmVaWxwO-FPhduX4Kn0",
+      "key": "Integration:One:ApiConfig:UserName",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "Berkshire",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:One:IsEnable",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "QscpU-FLwtticnhEb4va1aEGoCEPhcC8wvzgxakV3Nc",
+    "content": {
+      "etag": "QscpU-FLwtticnhEb4va1aEGoCEPhcC8wvzgxakV3Nc",
+      "key": "Integration:One:IsEnable",
+      "label": "development/client/100",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:One:OneVendorId",
+    "label": "development/client/100",
+    "value": "1825415937800409088",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "9Nvqym9pC4uP4lzznRO3_Ip8tt-kOKQZ9HcQw7y-bMI",
+    "content": {
+      "etag": "9Nvqym9pC4uP4lzznRO3_Ip8tt-kOKQZ9HcQw7y-bMI",
+      "key": "Integration:One:OneVendorId",
+      "label": "development/client/100",
+      "value": "1825415937800409088",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Integration:Webhook:Enabled",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "OLULebx7tZ60svv3SBpEOmP1CoL0czfwbel_W_xDXtk",
+    "content": {
+      "etag": "OLULebx7tZ60svv3SBpEOmP1CoL0czfwbel_W_xDXtk",
+      "key": "Integration:Webhook:Enabled",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "LlmProviders",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Brain360-LlmProviders\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-25T03:20:52+00:00",
+    "tags": {},
+    "etag": "ZKzFDQNaSZ2MlZ6YA2iXBx6Yy8-Im-uiYKL-knHVWvQ",
+    "content": {
+      "etag": "ZKzFDQNaSZ2MlZ6YA2iXBx6Yy8-Im-uiYKL-knHVWvQ",
+      "key": "LlmProviders",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Brain360-LlmProviders\"}",
+      "last_modified": "2025-07-25T03:20:52.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "LlmProviders",
+    "label": "local/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Brain360-LlmProviders\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-25T03:21:04+00:00",
+    "tags": {},
+    "etag": "8XVJATzHIAPWtr_d_U8n0BtuEHAIZRfr1vhAsWUa8Sw",
+    "content": {
+      "etag": "8XVJATzHIAPWtr_d_U8n0BtuEHAIZRfr1vhAsWUa8Sw",
+      "key": "LlmProviders",
+      "label": "local/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Brain360-LlmProviders\"}",
+      "last_modified": "2025-07-25T03:21:04.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MakeReady:MakeReadyDays",
+    "label": "development/client/100",
+    "value": "3",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "9UxtO9WEZ5GcrStiglAJvljaNmCB5C3ipC_dakft_Dg",
+    "content": {
+      "etag": "9UxtO9WEZ5GcrStiglAJvljaNmCB5C3ipC_dakft_Dg",
+      "key": "MakeReady:MakeReadyDays",
+      "label": "development/client/100",
+      "value": "3",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:FirebaseMessagingJs:Url",
+    "label": "development/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/clientportal-portal/{version}/firebase-messaging-sw.js",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:54:18+00:00",
+    "tags": {},
+    "etag": "A72SRYx2tOw6ZdVWJue38fuY06PuaetcmuTgUkE5wTE",
+    "content": {
+      "etag": "A72SRYx2tOw6ZdVWJue38fuY06PuaetcmuTgUkE5wTE",
+      "key": "MicroFrontend:FirebaseMessagingJs:Url",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/clientportal-portal/{version}/firebase-messaging-sw.js",
+      "last_modified": "2025-07-22T08:54:18.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:FirebaseMessagingJs:Url",
+    "label": "local/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/clientportal-portal/{version}/firebase-messaging-sw.js",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:54:27+00:00",
+    "tags": {},
+    "etag": "aFrZkFbSngMviC4ZD9Y7MsOJ1VLOtHFNV8uMMfXBjMc",
+    "content": {
+      "etag": "aFrZkFbSngMviC4ZD9Y7MsOJ1VLOtHFNV8uMMfXBjMc",
+      "key": "MicroFrontend:FirebaseMessagingJs:Url",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/clientportal-portal/{version}/firebase-messaging-sw.js",
+      "last_modified": "2025-07-22T08:54:27.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:IndexHtml:Url",
+    "label": "development/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/index.html",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:54:40+00:00",
+    "tags": {},
+    "etag": "-pccoM5zLl1yY2MMsU8Vn5M-1vKQUBrDUS0N6eBZchk",
+    "content": {
+      "etag": "-pccoM5zLl1yY2MMsU8Vn5M-1vKQUBrDUS0N6eBZchk",
+      "key": "MicroFrontend:IndexHtml:Url",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/index.html",
+      "last_modified": "2025-07-22T08:54:40.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:IndexHtml:Url",
+    "label": "local/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/index.html",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:54:47+00:00",
+    "tags": {},
+    "etag": "wyK2RyFX9bXp5SNVSKAxWKMt_p0zPDQr_kd3AGcwuDE",
+    "content": {
+      "etag": "wyK2RyFX9bXp5SNVSKAxWKMt_p0zPDQr_kd3AGcwuDE",
+      "key": "MicroFrontend:IndexHtml:Url",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/index.html",
+      "last_modified": "2025-07-22T08:54:47.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:JsonConfig:Url",
+    "label": "development/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/clientportal-micro-{project}.json",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:54:55+00:00",
+    "tags": {},
+    "etag": "pzIxGz6wbWPZJHl1Vu8VPGqlnZvbJz9z8FLEcHCpdN8",
+    "content": {
+      "etag": "pzIxGz6wbWPZJHl1Vu8VPGqlnZvbJz9z8FLEcHCpdN8",
+      "key": "MicroFrontend:JsonConfig:Url",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/clientportal-micro-{project}.json",
+      "last_modified": "2025-07-22T08:54:55.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:JsonConfig:Url",
+    "label": "local/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/clientportal-micro-{project}.json",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:55:03+00:00",
+    "tags": {},
+    "etag": "TtJQGrGJw1Zt5Dc0tt6wRRrwamm68t3fCRsDDca3e_c",
+    "content": {
+      "etag": "TtJQGrGJw1Zt5Dc0tt6wRRrwamm68t3fCRsDDca3e_c",
+      "key": "MicroFrontend:JsonConfig:Url",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/clientportal-micro-{project}.json",
+      "last_modified": "2025-07-22T08:55:03.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:RspAppHtml:Url",
+    "label": "development/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/rsp/{tenant}/index.html",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:55:09+00:00",
+    "tags": {},
+    "etag": "KgU5VYMk7E5vVmhLm40U4unfdeU-5FeLp4d8CTQvrUY",
+    "content": {
+      "etag": "KgU5VYMk7E5vVmhLm40U4unfdeU-5FeLp4d8CTQvrUY",
+      "key": "MicroFrontend:RspAppHtml:Url",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/rsp/{tenant}/index.html",
+      "last_modified": "2025-07-22T08:55:09.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "MicroFrontend:VendorAppHtml:Url",
+    "label": "development/client/100",
+    "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/vendorapp.html",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:55:17+00:00",
+    "tags": {},
+    "etag": "CQBX40T1D5_EbKN_MuLSVZttnMRjb0HtV4WX60RMo4I",
+    "content": {
+      "etag": "CQBX40T1D5_EbKN_MuLSVZttnMRjb0HtV4WX60RMo4I",
+      "key": "MicroFrontend:VendorAppHtml:Url",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://stcsxfrontenddevsea1.z23.web.core.windows.net/entrypoint/client{tenant}/vendorapp.html",
+      "last_modified": "2025-07-22T08:55:17.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "OpenTelemetry:Enabled",
+    "label": "development/client/100",
+    "value": "true",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "EnCkCZLpuC7p370psYVxFqM0S5vUBAJCoiN7N_00ANQ",
+    "content": {
+      "etag": "EnCkCZLpuC7p370psYVxFqM0S5vUBAJCoiN7N_00ANQ",
+      "key": "OpenTelemetry:Enabled",
+      "label": "development/client/100",
+      "value": "true",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:ClientId",
+    "label": "development/client/100",
+    "value": "8c4594cc-6338-4c1d-af6d-cf31ae2e8583",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "g7GD06X-mLcLJg1qS1ROTC83Uq2BLGQy8LmihTbTABw",
+    "content": {
+      "etag": "g7GD06X-mLcLJg1qS1ROTC83Uq2BLGQy8LmihTbTABw",
+      "key": "PowerBI:ClientId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "8c4594cc-6338-4c1d-af6d-cf31ae2e8583",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:ClientId",
+    "label": "local/client/100",
+    "value": "8c4594cc-6338-4c1d-af6d-cf31ae2e8583",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "5MSoOHrPwHQrrzzEDwQPp2CfdboKYHWuhaLZSvpOxMU",
+    "content": {
+      "etag": "5MSoOHrPwHQrrzzEDwQPp2CfdboKYHWuhaLZSvpOxMU",
+      "key": "PowerBI:ClientId",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "8c4594cc-6338-4c1d-af6d-cf31ae2e8583",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:ClientSecret",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/PowerBI-ClientSecret\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:49:31+00:00",
+    "tags": {},
+    "etag": "pRgKIYPJ7BmxDPxhjiYZ6dCkU14_Mu9gVfyap_pdg_o",
+    "content": {
+      "etag": "pRgKIYPJ7BmxDPxhjiYZ6dCkU14_Mu9gVfyap_pdg_o",
+      "key": "PowerBI:ClientSecret",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/PowerBI-ClientSecret\"}",
+      "last_modified": "2025-07-22T08:49:31.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:ClientSecret",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/PowerBI-ClientSecret\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:49:39+00:00",
+    "tags": {},
+    "etag": "kJ6e0eVZSkz8eiCdM09gYp6DtVsN7Ei9jvMkRXSie2s",
+    "content": {
+      "etag": "kJ6e0eVZSkz8eiCdM09gYp6DtVsN7Ei9jvMkRXSie2s",
+      "key": "PowerBI:ClientSecret",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/PowerBI-ClientSecret\"}",
+      "last_modified": "2025-07-22T08:49:39.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:TenantId",
+    "label": "development/client/100",
+    "value": "ec651900-a21e-427d-8eaf-d1b1c36fb6ba",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "Q0kPNqc8HTfZ5Wqne_D6g6ZGpVON_dBnC-_WpjexsqI",
+    "content": {
+      "etag": "Q0kPNqc8HTfZ5Wqne_D6g6ZGpVON_dBnC-_WpjexsqI",
+      "key": "PowerBI:TenantId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "ec651900-a21e-427d-8eaf-d1b1c36fb6ba",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:TenantId",
+    "label": "local/client/100",
+    "value": "ec651900-a21e-427d-8eaf-d1b1c36fb6ba",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "sBxg4cjtquNmwvRBlkW4018WFS3DDFIls8j9oTgmdQQ",
+    "content": {
+      "etag": "sBxg4cjtquNmwvRBlkW4018WFS3DDFIls8j9oTgmdQQ",
+      "key": "PowerBI:TenantId",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "ec651900-a21e-427d-8eaf-d1b1c36fb6ba",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:WorkspaceId",
+    "label": "development/client/100",
+    "value": "d0b915eb-6cab-4a97-89f0-b544cf1b893f",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "GDEjr1KpJ6qgf35fwOJyMMaJAcz14rckD2Fhant773k",
+    "content": {
+      "etag": "GDEjr1KpJ6qgf35fwOJyMMaJAcz14rckD2Fhant773k",
+      "key": "PowerBI:WorkspaceId",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "d0b915eb-6cab-4a97-89f0-b544cf1b893f",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "PowerBI:WorkspaceId",
+    "label": "local/client/100",
+    "value": "d0b915eb-6cab-4a97-89f0-b544cf1b893f",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "8M6SDBXSdDC1N12OL30pOtzX-eVyyhYgTwYOEmQTBTc",
+    "content": {
+      "etag": "8M6SDBXSdDC1N12OL30pOtzX-eVyyhYgTwYOEmQTBTc",
+      "key": "PowerBI:WorkspaceId",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "d0b915eb-6cab-4a97-89f0-b544cf1b893f",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "SendGrid:APIkey",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/SendGrid-APIkey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:49:53+00:00",
+    "tags": {},
+    "etag": "rxkwNTZa1tANnFg6KJBRMXBoGJCStR2JIxnEBNQChfw",
+    "content": {
+      "etag": "rxkwNTZa1tANnFg6KJBRMXBoGJCStR2JIxnEBNQChfw",
+      "key": "SendGrid:APIkey",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/SendGrid-APIkey\"}",
+      "last_modified": "2025-07-22T08:49:53.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "SendGrid:APIkey",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/SendGrid-APIkey\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:49:59+00:00",
+    "tags": {},
+    "etag": "3KmOI79pR_tB_elS4fIk_GfH8jiMA2mG-lwjZ-XVkdA",
+    "content": {
+      "etag": "3KmOI79pR_tB_elS4fIk_GfH8jiMA2mG-lwjZ-XVkdA",
+      "key": "SendGrid:APIkey",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/SendGrid-APIkey\"}",
+      "last_modified": "2025-07-22T08:49:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "SendGrid:From",
+    "label": "development/client/100",
+    "value": "no-reply@sg100.fixt.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "CqPOZRGdrInzML7O2NKWzLuFJhXf7k6Bwqg8qzaCNxU",
+    "content": {
+      "etag": "CqPOZRGdrInzML7O2NKWzLuFJhXf7k6Bwqg8qzaCNxU",
+      "key": "SendGrid:From",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "no-reply@sg100.fixt.com",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "SendGrid:From",
+    "label": "local/client/100",
+    "value": "mail-service@fixt.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "CWTdPpMFpNhIJIJy2H2CqoO5pV0kqHmwiHAPH53qpX8",
+    "content": {
+      "etag": "CWTdPpMFpNhIJIJy2H2CqoO5pV0kqHmwiHAPH53qpX8",
+      "key": "SendGrid:From",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "mail-service@fixt.com",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ServiceMesh:BaseUrl",
+    "label": "development/client/100/brain360",
+    "value": "http://ca-csx-domain-100-dev-sea-1",
+    "content_type": "",
+    "last_modified": "2025-07-22T08:50:09+00:00",
+    "tags": {},
+    "etag": "oPNXmk1tgN_ah1MVEOZNsQPcgujupDu45j5NDNkegG0",
+    "content": {
+      "etag": "oPNXmk1tgN_ah1MVEOZNsQPcgujupDu45j5NDNkegG0",
+      "key": "ServiceMesh:BaseUrl",
+      "label": "development/client/100/brain360",
+      "content_type": "",
+      "value": "http://ca-csx-domain-100-dev-sea-1",
+      "last_modified": "2025-07-22T08:50:09.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ServiceMesh:BaseUrl",
+    "label": "local/client/100/brain360",
+    "value": "http://localhost:5000/client-domain",
+    "content_type": "",
+    "last_modified": "2025-07-25T08:12:16+00:00",
+    "tags": {},
+    "etag": "I9nhQ6fPwWaqf3IfqIJpIYLZJBrO_X1Ta80Yz0Euhs0",
+    "content": {
+      "etag": "I9nhQ6fPwWaqf3IfqIJpIYLZJBrO_X1Ta80Yz0Euhs0",
+      "key": "ServiceMesh:BaseUrl",
+      "label": "local/client/100/brain360",
+      "content_type": "",
+      "value": "http://localhost:5000/client-domain",
+      "last_modified": "2025-07-25T08:12:16.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "ServiceRequestSmartScheduleEndDays",
+    "label": "development/client/100",
+    "value": "30",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "eZHTfgahITUVbcLMdd12_axkBpjV1E1EyPdUzTfWxR4",
+    "content": {
+      "etag": "eZHTfgahITUVbcLMdd12_axkBpjV1E1EyPdUzTfWxR4",
+      "key": "ServiceRequestSmartScheduleEndDays",
+      "label": "development/client/100",
+      "value": "30",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "SqlDriver:SqlServerConnectionString",
+    "label": "development/client/100/brain360",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-25T03:23:53+00:00",
+    "tags": {},
+    "etag": "bMgCCEKU15D7adW5qRDG-dJ2qxRtMRroy7gHasbU7WA",
+    "content": {
+      "etag": "bMgCCEKU15D7adW5qRDG-dJ2qxRtMRroy7gHasbU7WA",
+      "key": "SqlDriver:SqlServerConnectionString",
+      "label": "development/client/100/brain360",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/ConnectionStrings-ClientDomain\"}",
+      "last_modified": "2025-07-25T03:23:53.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "System:Settings:SSOSettingEnabled",
+    "label": "development/client/100",
+    "value": "false",
+    "content_type": null,
+    "last_modified": "2025-07-22T07:35:56+00:00",
+    "tags": {},
+    "etag": "wpHGIHWsCDJ15Y5cfvTZCbaUDCy43C0j_8EoT2DXOMw",
+    "content": {
+      "etag": "wpHGIHWsCDJ15Y5cfvTZCbaUDCy43C0j_8EoT2DXOMw",
+      "key": "System:Settings:SSOSettingEnabled",
+      "label": "development/client/100",
+      "value": "false",
+      "last_modified": "2025-07-22T07:35:56.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:AccountSid",
+    "label": "development/client/100",
+    "value": "ACeed33e9b4d6d148a39282df440eec946",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "vkEE7B0_AFoLecwgA16hvdsR60zgvvMS18k_zpC7RiI",
+    "content": {
+      "etag": "vkEE7B0_AFoLecwgA16hvdsR60zgvvMS18k_zpC7RiI",
+      "key": "Twilio:AccountSid",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "ACeed33e9b4d6d148a39282df440eec946",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:AccountSid",
+    "label": "local/client/100",
+    "value": "ACeed33e9b4d6d148a39282df440eec946",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:57+00:00",
+    "tags": {},
+    "etag": "8_fOr6InZPu8MYerDssrc9Uxv_o7p5Q_8SsNOb56W9Q",
+    "content": {
+      "etag": "8_fOr6InZPu8MYerDssrc9Uxv_o7p5Q_8SsNOb56W9Q",
+      "key": "Twilio:AccountSid",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "ACeed33e9b4d6d148a39282df440eec946",
+      "last_modified": "2025-07-22T07:35:57.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:AuthToken",
+    "label": "development/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Twilio-AuthToken\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:50:33+00:00",
+    "tags": {},
+    "etag": "RvXbFFESNf_mjeRKYzsubgUvCV2jLdrBmuewAY_2T8o",
+    "content": {
+      "etag": "RvXbFFESNf_mjeRKYzsubgUvCV2jLdrBmuewAY_2T8o",
+      "key": "Twilio:AuthToken",
+      "label": "development/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Twilio-AuthToken\"}",
+      "last_modified": "2025-07-22T08:50:33.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:AuthToken",
+    "label": "local/client/100",
+    "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Twilio-AuthToken\"}",
+    "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+    "last_modified": "2025-07-22T08:50:40+00:00",
+    "tags": {},
+    "etag": "3JXNKKyaycHLFobEUf088axwdWBxdsE85rFYsztzQfs",
+    "content": {
+      "etag": "3JXNKKyaycHLFobEUf088axwdWBxdsE85rFYsztzQfs",
+      "key": "Twilio:AuthToken",
+      "label": "local/client/100",
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "value": "{\"uri\": \"https://kv-csx-100-dev-sea-1.vault.azure.net/secrets/Twilio-AuthToken\"}",
+      "last_modified": "2025-07-22T08:50:40.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:FromPhoneNumber",
+    "label": "development/client/100",
+    "value": "+12522622906",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:36:00+00:00",
+    "tags": {},
+    "etag": "2UrR3PG2g_-WrjuWoSOY37Qy4-gg6QnfVFem4gK9T9M",
+    "content": {
+      "etag": "2UrR3PG2g_-WrjuWoSOY37Qy4-gg6QnfVFem4gK9T9M",
+      "key": "Twilio:FromPhoneNumber",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "+12522622906",
+      "last_modified": "2025-07-22T07:36:00.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Twilio:FromPhoneNumber",
+    "label": "local/client/100",
+    "value": "+12522622906",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "paMGun2vwn6gi_tFJsMbhcteSOs8jQsRpDWQpCCNu4c",
+    "content": {
+      "etag": "paMGun2vwn6gi_tFJsMbhcteSOs8jQsRpDWQpCCNu4c",
+      "key": "Twilio:FromPhoneNumber",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "+12522622906",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Urls:BrainUrl",
+    "label": "development/client/100",
+    "value": "http://ca-csx-brain-100-dev-sea-1",
+    "content_type": "",
+    "last_modified": "2025-07-22T08:53:21+00:00",
+    "tags": {},
+    "etag": "qH1nIImUs0ay5ScrMCs7f-qgiha0skF9hRzt8ZVz1jY",
+    "content": {
+      "etag": "qH1nIImUs0ay5ScrMCs7f-qgiha0skF9hRzt8ZVz1jY",
+      "key": "Urls:BrainUrl",
+      "label": "development/client/100",
+      "content_type": "",
+      "value": "http://ca-csx-brain-100-dev-sea-1",
+      "last_modified": "2025-07-22T08:53:21.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Urls:ClientPortal",
+    "label": "development/client/100",
+    "value": "https://app-dev.lessen360.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:51:00+00:00",
+    "tags": {},
+    "etag": "eApdjDQqK7-gwiEMkeZSxXx_Xscc-QJq42Q7HXGeS20",
+    "content": {
+      "etag": "eApdjDQqK7-gwiEMkeZSxXx_Xscc-QJq42Q7HXGeS20",
+      "key": "Urls:ClientPortal",
+      "label": "development/client/100",
+      "content_type": "text/plain",
+      "value": "https://app-dev.lessen360.com",
+      "last_modified": "2025-07-22T08:51:00.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Urls:ClientPortal",
+    "label": "local/client/100",
+    "value": "https://app-dev.lessen360.com",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T08:51:08+00:00",
+    "tags": {},
+    "etag": "xNzacppANIf81p2IUNmw6W0PfeAIO25R65_OnY1C3uk",
+    "content": {
+      "etag": "xNzacppANIf81p2IUNmw6W0PfeAIO25R65_OnY1C3uk",
+      "key": "Urls:ClientPortal",
+      "label": "local/client/100",
+      "content_type": "text/plain",
+      "value": "https://app-dev.lessen360.com",
+      "last_modified": "2025-07-22T08:51:08.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "Urls:ClientResidentPortal",
+    "label": "development/client/100",
+    "value": "https://resident-app-dev.lessen360.com",
+    "content_type": "",
+    "last_modified": "2025-07-22T08:51:22+00:00",
+    "tags": {},
+    "etag": "jC4DIgR6q7YxxIv5Zlj-J0R9R_VKCvnStc2QA4rM8Gs",
+    "content": {
+      "etag": "jC4DIgR6q7YxxIv5Zlj-J0R9R_VKCvnStc2QA4rM8Gs",
+      "key": "Urls:ClientResidentPortal",
+      "label": "development/client/100",
+      "content_type": "",
+      "value": "https://resident-app-dev.lessen360.com",
+      "last_modified": "2025-07-22T08:51:22.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "development/client/100",
+    "label": "namespace",
+    "value": "08/08/2024 02:32:07",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "BuvVR0NwivmeJ1969hTC8l9w0fzy1ZyXGeI3YwcHRog",
+    "content": {
+      "etag": "BuvVR0NwivmeJ1969hTC8l9w0fzy1ZyXGeI3YwcHRog",
+      "key": "development/client/100",
+      "label": "namespace",
+      "content_type": "text/plain",
+      "value": "08/08/2024 02:32:07",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  },
+  {
+    "key": "local/client/100",
+    "label": "namespace",
+    "value": "06/18/2024 08:44:30",
+    "content_type": "text/plain",
+    "last_modified": "2025-07-22T07:35:59+00:00",
+    "tags": {},
+    "etag": "2w5ZCED7u2UDgluXYwtF6lZ558_xuioqKTB7AdaJAeI",
+    "content": {
+      "etag": "2w5ZCED7u2UDgluXYwtF6lZ558_xuioqKTB7AdaJAeI",
+      "key": "local/client/100",
+      "label": "namespace",
+      "content_type": "text/plain",
+      "value": "06/18/2024 08:44:30",
+      "last_modified": "2025-07-22T07:35:59.000Z",
+      "read_only": false,
+      "tags": {}
+    }
+  }
+]

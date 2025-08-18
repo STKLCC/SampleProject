@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Screenshot Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 10px 0;
+      font-size: 1.2em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Live Screenshot of Example.com
+  </header>
+
+  <img id="screenshot" src="page.png" alt="Website Screenshot">
+
+  <script>
+    // Refresh the image every 60 seconds
+    const refreshInterval = 60 * 1000; // 60 seconds
+
+    setInterval(() => {
+      const img = document.getElementById("screenshot");
+      img.src = "page.png?t=" + Date.now(); // Cache-busting query string
+    }, refreshInterval);
+  </script>
+</body>
+</html>
