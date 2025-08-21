@@ -1,0 +1,1 @@
+import{J as s,K as t,x as o,y as n,q as e}from"./npYQabhD.js";const l={__name:"index",setup(c){const{isLoggedIn:a}=s();return t(()=>{a.value?e("/dashboard"):e("/login")}),(r,i)=>(n(),o("div"))}};export{l as default};
